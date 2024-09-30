@@ -30,7 +30,7 @@ export default function AboutPage() {
                         Rejoignez-notre équipe de passionnés !
                         </h1>
                         <p className="">
-                        Rejoignez-nous afin de créer la meilleure expérience de plannification de trajet au Maroc.<br/>
+                        Rejoignez-nous afin de créer la meilleure expérience de plannification de trajet.<br/>
                         </p>
                         {state.succeeded ? 
                         <div className="h-full"><p className="text-xl font-bold">Merci, votre message a bien été transmis.</p></div> :
