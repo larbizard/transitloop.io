@@ -19,17 +19,17 @@ export default function TermsOfUse() {
                 Termes et conditions générales
             </h1>
             <h2 className="text-xl font-bold py-4">
-              Bienvenue sur MdinaMapper !
+              Bienvenue sur TransitLoop !
             </h2>
             <p className="py-2">
-            Les présentes conditions générales décrivent les règles et règlements relatifs à l'utilisation du site web et de l'application de Mdina Mapper, situé à l'adresse <a href="https://www.mdinamapper.ma/" className="font-bold">https://www.mdinamapper.ma</a>.<br/>
+            Les présentes conditions générales décrivent les règles et règlements relatifs à l'utilisation du site web et de l'application de Mdina Mapper, situé à l'adresse <a href="https://www.TransitLoop.ma/" className="font-bold">https://www.TransitLoop.ma</a>.<br/>
             </p>
             <p>
-            En accédant à ce site web, nous supposons que vous acceptez ces conditions générales. Ne continuez pas à utiliser MdinaMapper si vous n'acceptez pas de prendre toutes les conditions générales énoncées sur cette page.<br/>
+            En accédant à ce site web, nous supposons que vous acceptez ces conditions générales. Ne continuez pas à utiliser TransitLoop si vous n'acceptez pas de prendre toutes les conditions générales énoncées sur cette page.<br/>
             </p>
             <h3 className="text-xl font-bold py-4">Cookies :</h3>
             <p>
-            Le site web utilise des cookies pour aider à personnaliser votre expérience en ligne. En accédant à MdinaMapper, vous avez accepté d'utiliser les cookies requis.<br/>
+            Le site web utilise des cookies pour aider à personnaliser votre expérience en ligne. En accédant à TransitLoop, vous avez accepté d'utiliser les cookies requis.<br/>
 
             Un cookie est un fichier texte qui est placé sur votre disque dur par un serveur de pages web. Les cookies ne peuvent pas être utilisés pour exécuter des programmes ou transmettre des virus à votre ordinateur. Les cookies vous sont attribués de manière unique et ne peuvent être lus que par un serveur web du domaine qui vous a émis le cookie.
 
@@ -38,14 +38,14 @@ export default function TermsOfUse() {
 
             <h3 className="text-xl font-bold py-4">Licence :</h3>
             <p className="py-2">
-            Sauf indication contraire, Mdina Mapper et/ou ses concédants de licence détiennent les droits de propriété intellectuelle de l'ensemble du matériel présent sur MdinaMapper. Tous les droits de propriété intellectuelle sont réservés. Vous pouvez y accéder à partir de MdinaMapper pour votre usage personnel, sous réserve des restrictions fixées dans les présentes conditions générales.<br/>
+            Sauf indication contraire, Mdina Mapper et/ou ses concédants de licence détiennent les droits de propriété intellectuelle de l'ensemble du matériel présent sur TransitLoop. Tous les droits de propriété intellectuelle sont réservés. Vous pouvez y accéder à partir de TransitLoop pour votre usage personnel, sous réserve des restrictions fixées dans les présentes conditions générales.<br/>
             </p>
             Vous ne devez pas :<br/>
             <ul className="list-disc ml-4 p-4">
-              <li>Copier ou republier des éléments provenant de MdinaMapper.</li>
-              <li>Vendre, louer ou concéder une sous-licence pour le matériel provenant de MdinaMapper.</li>
-              <li>Reproduire, dupliquer ou copier le matériel provenant de MdinaMapper.</li>
-              <li>Redistribuer le contenu de MdinaMapper</li>
+              <li>Copier ou republier des éléments provenant de TransitLoop.</li>
+              <li>Vendre, louer ou concéder une sous-licence pour le matériel provenant de TransitLoop.</li>
+              <li>Reproduire, dupliquer ou copier le matériel provenant de TransitLoop.</li>
+              <li>Redistribuer le contenu de TransitLoop</li>
               <li>Le présent accord prend effet à la date des présentes.</li>
             </ul>
 

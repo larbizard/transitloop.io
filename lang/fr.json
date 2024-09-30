@@ -20,8 +20,8 @@
     "Choose_an_arrival_point": "Choisir un lieu d'arrivée ...",
     "Plan_my_trip": "Planifier mon trajet",
     "About": {
-        "Title": "À propos de MdinaMapper",
-        "Text1": "MdinaMapper vous aide à planifier vos trajets en toute simplicité.",
+        "Title": "À propos de TransitLoop",
+        "Text1": "TransitLoop vous aide à planifier vos trajets en toute simplicité.",
         "Text2": "Choisissez votre destination et notre planificateur vous propose plusieurs itinéraires combinants bus, tramway et taxi."
     },
     "Cities_page": {

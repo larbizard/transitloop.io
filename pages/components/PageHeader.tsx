@@ -94,31 +94,31 @@ export default function PageHeader () {
                     <div className="group menu-identity flex flex-row items-center cursor-pointer">
                         <div className="hidden lg:block mr-4">
                             <div className="block group-hover:hidden">
-                                <Image src="/assets/images/mdinamapper_logo_no_text.svg" width={30} height={60} alt="Logo no text" />
+                                <Image src="/assets/images/TransitLoop_logo_no_text.svg" width={30} height={60} alt="Logo no text" />
                             </div>
                             <div className="hidden group-hover:block">
-                                <Image src="/assets/images/mdinamapper_logo_no_text_hover.svg" width={30} height={60} alt="Logo no text hover" />
+                                <Image src="/assets/images/TransitLoop_logo_no_text_hover.svg" width={30} height={60} alt="Logo no text hover" />
                             </div>
                         </div>
                         <div className="lg:hidden mr-4">
                             <div className="block group-hover:hidden">
-                                <Image src="/assets/images/mdinamapper_logo_no_text.svg" width={25} height={60} alt="Logo no text" />
+                                <Image src="/assets/images/TransitLoop_logo_no_text.svg" width={25} height={60} alt="Logo no text" />
                             </div>
                             <div className="hidden group-hover:block">
-                                <Image src="/assets/images/mdinamapper_logo_no_text_hover.svg" width={25} height={60} alt="Logo no text hover" />
+                                <Image src="/assets/images/TransitLoop_logo_no_text_hover.svg" width={25} height={60} alt="Logo no text hover" />
                             </div>
                         </div>
                         <h1 className="text-2xl">
-                            MdinaMapper
+                            TransitLoop
                         </h1>
                     </div>
                 </Link>
                 <div className="hidden lg:flex menu flex-col space-y-4">
         
                     <div className="hidden lg:flex menu flex-row justify-between space-x-8">
-                        <Link href="https://www.facebook.com/mdinamapper"><Icon.Facebook className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="https://www.instagram.com/mdinamapper/"><Icon.Instagram className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="https://twitter.com/mdinamapper"><Icon.Twitter className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="https://www.facebook.com/TransitLoop"><Icon.Facebook className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="https://www.instagram.com/TransitLoop/"><Icon.Instagram className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="https://twitter.com/TransitLoop"><Icon.Twitter className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
                     {i18n.language === 'fr' || i18n.language === 'en' ? 
                         <LeftToRightMenu />
                     
@@ -187,9 +187,9 @@ export default function PageHeader () {
                         </Link>
                     </div>
                     <div className="flex flex-row pt-8 space-x-4 py-4">
-                        <Link href="https://www.facebook.com/mdinamapper"><Icon.Facebook className="cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="https://www.instagram.com/mdinamapper/"><Icon.Instagram className="cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="https://twitter.com/mdinamapper"><Icon.Twitter className="cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="https://www.facebook.com/TransitLoop"><Icon.Facebook className="cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="https://www.instagram.com/TransitLoop/"><Icon.Instagram className="cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="https://twitter.com/TransitLoop"><Icon.Twitter className="cursor-pointer hover:text-white" size={25} /></Link>
                     </div>
                 </div>
             </div>

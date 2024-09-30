@@ -375,7 +375,7 @@ const Map = () => {
             <div className="pl-2 pb-2 py-2 flex flex-row items-center">
               <Link
                 className="w-full"
-                href={`https://app.mdinamapper.ma/#/?fromPlace=${
+                href={`https://app.TransitLoop.ma/#/?fromPlace=${
                   fromLocation.lat + "%2C%20" + fromLocation.lng
                 }&toPlace=${toLocation.lat}%2C%20${
                   toLocation.lng

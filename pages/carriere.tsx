@@ -88,7 +88,7 @@ export default function AboutPage() {
                                     field="firstname"
                                     errors={state.errors}
                                 />
-                                <label htmlFor="message">Pourquoi voulez-vous rejoindre MdinaMapper ?</label>
+                                <label htmlFor="message">Pourquoi voulez-vous rejoindre TransitLoop ?</label>
                                 <textarea
                                 id="message"
                                 name="message"

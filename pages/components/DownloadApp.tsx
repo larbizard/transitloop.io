@@ -12,11 +12,11 @@ const DownloadApp = () => {
         return (<div {...props}>
             <h1 className={`text-4xl font-black  ${i18n.language === "ar" ? "text-right" : ""}`}>{t("Welcome_message")}</h1>
             <div className="flex justify-center py-4">
-                <Link className="pr-2" href="https://play.google.com/store/apps/details?id=com.larbizard.MdinaMapper">
+                <Link className="pr-2" href="https://play.google.com/store/apps/details?id=com.larbizard.TransitLoop">
                     <Image src={`/assets/images/badges/Android/google-play-badge-${i18n.language}.png`} height={30} width={200} alt="Android 
     badge"/>
                 </Link>
-                <Link className="pl-2" href="https://apps.apple.com/us/app/mdinamapper/id1662853420">
+                <Link className="pl-2" href="https://apps.apple.com/us/app/TransitLoop/id1662853420">
                     <Image src={`/assets/images/badges/Apple/App_Store_Badge_${i18n.language}.svg`} height={30} width={i18n.language === "ar" || i18n.language === "en" ? 180 : 190} alt="Android badge" />
                 </Link>
             </div>

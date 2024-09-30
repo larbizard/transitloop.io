@@ -14,7 +14,7 @@ export default function IndexPage() {
   return (
     <div className="bg-yellow-400 h-screen md:h-full">
       <Head>
-          <title>MdinaMapper</title>
+          <title>TransitLoop</title>
       </Head>
       <PageHeader />
       <DownloadApp />
@@ -56,7 +56,7 @@ export default function IndexPage() {
         </div>
       </div>
 
-      <h1 className="text-4xl text-center py-2">MdinaMapper.ma</h1>
+      <h1 className="text-4xl text-center py-2">TransitLoop.ma</h1>
       {/* <Map /> */}
       <div className="bg-yellow-400 hidden md:block py-8 px-2">
         <h1 className="text-xl text-center py-8">{t("Available_in_casablanca")}</h1>
