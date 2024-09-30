@@ -1,0 +1,44 @@
+{
+    "Welcome_message": "Moving smarter in Morocco",
+    "fr_lang": "french",
+    "ar_lang": "arabic",
+    "en_lang": "english",
+    "Soon_in_all_cities": "Soon available in all kingdom's cities!",
+    "Available_in_casablanca": "Now available in Casablanca !",
+    "Home": "Home",
+    "Cities": "Cities",
+    "Career": "Career",
+    "About_us": "About us",
+    "Contact_us": "Contact us",
+    "Email": "Email",
+    "I_want_to_stay_informed": "I want to stay informed",
+    "Sent": "Sent",
+    "Sending": "Sending ...",
+    "Made_with_love_in": "Made with love in",
+    "Terms_of_service": "Terms of Service",
+    "Choose_an_origin_point" : "Choose an origin point ...",
+    "Choose_an_arrival_point": "Choose an arrival point ...",
+    "Plan_my_trip": "Plan my trip",
+    "About": {
+        "Title": "About MdinaMapper",
+        "Text1": "MdinaMapper helps you plan trips easily.",
+        "Text2": "Choose your destination and our planning tool will propose you trips combining bus, tramway and taxi."
+    },
+    "Cities_page": {
+        "Title": "Empowering cities, Trough MaaS",
+        "Text1": "Mobility as a service is the future of urban mobility.",
+        "Text2": "",
+        "Problematic1": "",
+        "Problematic2": "",
+        "Solution1": "",
+        "Solution2": ""
+    },
+    "Contact": {
+        "Title": "Contactez us",
+        "Email": "Email",
+        "Message": "Message",
+        "Submit": "Submit",
+        "Submitted": "Submitted",
+        "InProgress": "In progress ..."
+    }
+}

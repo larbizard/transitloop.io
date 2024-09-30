@@ -1,0 +1,44 @@
+{
+    "Welcome_message": "تحرك بلا ما تخمم",
+    "fr_lang": "فرنسي",
+    "ar_lang": "العربية",
+    "en_lang": "إنجليزية",
+    "Soon_in_all_cities": "! قريبا في مدن أخرى من المملكة",
+    "Available_in_casablanca": "! متوفر الآن في الدار البيضاء",
+    "Home": "الصفحة الرئيسية",
+    "Cities": "مدن",
+    "Career": "عروض العمل",
+    "About_us": "من نحن",
+    "Contact_us": "تواصل معنا",
+    "Email": "البريد الإلكتروني",
+    "I_want_to_stay_informed": "أريد أن أبقى على اطلاع",
+    "Sent": "أرسلت",
+    "Sending": "... إرسال",
+    "Made_with_love_in": "مصنوع بحب في",
+    "Terms_of_service": "الأحكام والشروط",
+    "Choose_an_origin_point": "... اختر نقطة البداية",
+    "Choose_an_arrival_point": "... اختر نقطة الوصول",
+    "Plan_my_trip": "خطط لرحلتي",
+    "About": {
+        "Title": "MdinaMapper حول",
+        "Text1": ".يساعدك على التخطيط للرحلات بسهولة MdinaMapper",
+        "Text2": ".اختر وجهتك وستقترح لك أداة التخطيط الخاصة بنا رحلات تجمع بين الحافلات والترام وسيارات الأجرة"
+    },
+    "Cities_page": {
+        "Title": "Empowering cities, Trough MaaS",
+        "Text1": ".التنقل كخدمة هو مستقبل التنقل الحضري",
+        "Text2": "",
+        "Problematic1": "",
+        "Problematic2": "",
+        "Solution1": "",
+        "Solution2": ""
+    },
+    "Contact": {
+        "Title": "اتصل بنا",
+        "Email": "بريد إلكتروني",
+        "Message": "رسالة",
+        "Submit": "يسلم",
+        "Submitted": "مُقَدَّم",
+        "InProgress": "... الجاري"
+    }
+}

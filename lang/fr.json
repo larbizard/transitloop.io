@@ -1,0 +1,44 @@
+{
+    "Welcome_message": "Se déplacer intelligemment au Maroc",
+    "fr_lang": "français",
+    "ar_lang": "arabe",
+    "en_lang": "anglais",
+    "Soon_in_all_cities": "Lancement prochainement dans d'autres villes du Royaume !",
+    "Available_in_casablanca": "Maintenant disponible à Casablanca !",
+    "Home": "Accueil",
+    "Cities": "Villes",
+    "Career": "Carrière",
+    "About_us": "À propos",
+    "Contact_us": "Nous contacter",
+    "Email": "Email",
+    "I_want_to_stay_informed": "Je veux rester informé",
+    "Sent": "Envoyé",
+    "Sending": "En cours ...",
+    "Made_with_love_in": "Made with love in",
+    "Terms_of_service": "Conditions générales d'utilisation",
+    "Choose_an_origin_point": "Choisir un lieu de départ ...",
+    "Choose_an_arrival_point": "Choisir un lieu d'arrivée ...",
+    "Plan_my_trip": "Planifier mon trajet",
+    "About": {
+        "Title": "À propos de MdinaMapper",
+        "Text1": "MdinaMapper vous aide à planifier vos trajets en toute simplicité.",
+        "Text2": "Choisissez votre destination et notre planificateur vous propose plusieurs itinéraires combinants bus, tramway et taxi."
+    },
+    "Cities_page": {
+        "Title": "Empowering cities, Trough MaaS",
+        "Text1": "Mobility as a service is the future of urban mobility.",
+        "Text2": "",
+        "Problematic1": "",
+        "Problematic2": "",
+        "Solution1": "",
+        "Solution2": ""
+    },
+    "Contact": {
+        "Title": "Contactez nous",
+        "Email": "Email",
+        "Message": "Message",
+        "Submit": "Soumettre",
+        "Submitted": "Soumis",
+        "InProgress": "En cours ..."
+    }
+}
