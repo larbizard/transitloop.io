@@ -271,7 +271,7 @@ const Map = () => {
               }
             ></Marker>
           )}
-          <div className="flex flex-col absolute bg-yellow-400 w-full md:w-auto md:m-4 md:rounded-xl px-2">
+          <div className="flex flex-col absolute bg-black w-full md:w-auto md:m-4 md:rounded-xl px-2">
             <div className="pt-2 flex flex-col">
               <div className="flex flex-row items-center">
                 {isLoaded ? (
@@ -375,7 +375,7 @@ const Map = () => {
             <div className="pl-2 pb-2 py-2 flex flex-row items-center">
               <Link
                 className="w-full"
-                href={`https://app.TransitLoop.ma/#/?fromPlace=${
+                href={`https://app.TransitLoop.io/#/?fromPlace=${
                   fromLocation.lat + "%2C%20" + fromLocation.lng
                 }&toPlace=${toLocation.lat}%2C%20${
                   toLocation.lng

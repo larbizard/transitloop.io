@@ -57,9 +57,9 @@ export default function AboutPage() {
 
         <div className="px-6 sm:hidden text-left">
           {i18n.language === "fr" || i18n.language === "en" ? (
-            <span>{t("Made_with_love_in")} 🇲🇦</span>
+            <span>{t("Made_with_love_in")}</span>
           ) : (
-            <span>🇲🇦 {t("Made_with_love_in")}</span>
+            <span>{t("Made_with_love_in")}</span>
           )}
         </div>
       </div>

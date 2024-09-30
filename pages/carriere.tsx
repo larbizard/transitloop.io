@@ -42,6 +42,7 @@ export default function AboutPage() {
                             <li>Developpeur(euse) Mobile</li>
                             <li>Developpeur(euse) Java</li>
                             <li>Developpeur(euse) Python</li>
+                            <li>Devops</li>
                             <li>Data analysts</li>
                         </ul>
                         <main className="w-full sm:w-3/4">

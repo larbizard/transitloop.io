@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://TransitLoop.ma/api/site-map
+Sitemap: https://TransitLoop.io/api/site-map

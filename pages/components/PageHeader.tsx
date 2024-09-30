@@ -27,11 +27,6 @@ export default function PageHeader () {
                         {t("Home")}
                     </h2>
                 </Link>
-                <Link href="/cities">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/cities" ? "underline" : "text-black"}`}>
-                        {t("Cities")}
-                    </h2>
-                </Link>
                 <Link href="/carriere">
                     <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/carriere" ? "underline" : "text-black"}`}>
                         {t("Career")}
@@ -70,11 +65,6 @@ export default function PageHeader () {
                     </h2>
                 </Link>
 
-                <Link href="/cities">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/cities" ? "underline" : "text-black"}`}>
-                        {t("Cities")}
-                    </h2>
-                </Link>
                 <Link href="/">
                     <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/" ? "underline" : "text-black"}`}>
                         {t("Home")}
@@ -116,9 +106,9 @@ export default function PageHeader () {
                 <div className="hidden lg:flex menu flex-col space-y-4">
         
                     <div className="hidden lg:flex menu flex-row justify-between space-x-8">
-                        <Link href="https://www.facebook.com/TransitLoop"><Icon.Facebook className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="https://www.instagram.com/TransitLoop/"><Icon.Instagram className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="https://twitter.com/TransitLoop"><Icon.Twitter className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="#"><Icon.Facebook className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="#"><Icon.Instagram className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="#"><Icon.Twitter className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
                     {i18n.language === 'fr' || i18n.language === 'en' ? 
                         <LeftToRightMenu />
                     
@@ -152,7 +142,7 @@ export default function PageHeader () {
                 <Icon.Menu className="lg:hidden cursor-pointer" size={25} onClick={() => setMobileMenuOpen(true)}/> :
                 <Icon.X className="lg:hidden cursor-pointer" size={25} onClick={() => setMobileMenuOpen(false)}/>}
             </div>
-            <div className={`absolute ${mobileMenuOpen ? "flex" : "hidden" } bg-yellow-400 w-full h-full p-6 flex-col space-y-8 z-30`}>
+            <div className={`absolute ${mobileMenuOpen ? "flex" : "hidden" } bg-black w-full h-full p-6 flex-col space-y-8 z-30`}>
                 <div className={`flex flex-col py-2 space-y-4 ${i18n.dir() === "rtl" && "text-right items-end"}`}>
                     <LeftToRightMenu />
                     <div className="pt-8 py-2 space-y-4">
@@ -187,9 +177,9 @@ export default function PageHeader () {
                         </Link>
                     </div>
                     <div className="flex flex-row pt-8 space-x-4 py-4">
-                        <Link href="https://www.facebook.com/TransitLoop"><Icon.Facebook className="cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="https://www.instagram.com/TransitLoop/"><Icon.Instagram className="cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="https://twitter.com/TransitLoop"><Icon.Twitter className="cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="#"><Icon.Facebook className="cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="#"><Icon.Instagram className="cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="#"><Icon.Twitter className="cursor-pointer hover:text-white" size={25} /></Link>
                     </div>
                 </div>
             </div>

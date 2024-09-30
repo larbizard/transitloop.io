@@ -1,9 +1,9 @@
 {
-    "Welcome_message": "Se déplacer intelligemment au Maroc",
+    "Welcome_message": "Se déplacer intelligemment",
     "fr_lang": "français",
     "ar_lang": "arabe",
     "en_lang": "anglais",
-    "Soon_in_all_cities": "Lancement prochainement dans d'autres villes du Royaume !",
+    "Soon_in_all_cities": "Lancement prochainement !",
     "Available_in_casablanca": "Maintenant disponible à Casablanca !",
     "Home": "Accueil",
     "Cities": "Villes",
@@ -14,7 +14,7 @@
     "I_want_to_stay_informed": "Je veux rester informé",
     "Sent": "Envoyé",
     "Sending": "En cours ...",
-    "Made_with_love_in": "Made with love in",
+    "Made_with_love_in": "Made with love",
     "Terms_of_service": "Conditions générales d'utilisation",
     "Choose_an_origin_point": "Choisir un lieu de départ ...",
     "Choose_an_arrival_point": "Choisir un lieu d'arrivée ...",
@@ -22,7 +22,7 @@
     "About": {
         "Title": "À propos de TransitLoop",
         "Text1": "TransitLoop vous aide à planifier vos trajets en toute simplicité.",
-        "Text2": "Choisissez votre destination et notre planificateur vous propose plusieurs itinéraires combinants bus, tramway et taxi."
+        "Text2": "Choisissez votre destination et notre planificateur vous propose plusieurs itinéraires combinants train, bus, tramway et vélo."
     },
     "Cities_page": {
         "Title": "Empowering cities, Trough MaaS",

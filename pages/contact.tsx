@@ -56,7 +56,7 @@ export default function Contact() {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: 'POST',
-      url: 'https://formspree.io/f/mwkzrbjg',
+      url: 'https://formspree.io/f/xanwraqj',
       data: inputs,
     })
       .then(() => {
