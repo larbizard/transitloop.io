@@ -94,18 +94,18 @@ export default function PageHeader () {
                     <div className="group menu-identity flex flex-row items-center cursor-pointer">
                         <div className="hidden lg:block mr-4">
                             <div className="block group-hover:hidden">
-                                <Image src="/assets/images/TransitLoop_logo_no_text.svg" width={30} height={60} alt="Logo no text" />
+                                <Image src="/assets/images/transitloop_logo_no_text.svg" width={30} height={60} alt="Logo no text" />
                             </div>
                             <div className="hidden group-hover:block">
-                                <Image src="/assets/images/TransitLoop_logo_no_text_hover.svg" width={30} height={60} alt="Logo no text hover" />
+                                <Image src="/assets/images/transitloop_logo_no_text_hover.svg" width={30} height={60} alt="Logo no text hover" />
                             </div>
                         </div>
                         <div className="lg:hidden mr-4">
                             <div className="block group-hover:hidden">
-                                <Image src="/assets/images/TransitLoop_logo_no_text.svg" width={25} height={60} alt="Logo no text" />
+                                <Image src="/assets/images/transitloop_logo_no_text.svg" width={25} height={60} alt="Logo no text" />
                             </div>
                             <div className="hidden group-hover:block">
-                                <Image src="/assets/images/TransitLoop_logo_no_text_hover.svg" width={25} height={60} alt="Logo no text hover" />
+                                <Image src="/assets/images/transitloop_logo_no_text_hover.svg" width={25} height={60} alt="Logo no text hover" />
                             </div>
                         </div>
                         <h1 className="text-2xl">
