@@ -142,7 +142,7 @@ export default function PageHeader () {
                 <Icon.Menu className="lg:hidden cursor-pointer" size={25} onClick={() => setMobileMenuOpen(true)}/> :
                 <Icon.X className="lg:hidden cursor-pointer" size={25} onClick={() => setMobileMenuOpen(false)}/>}
             </div>
-            <div className={`absolute ${mobileMenuOpen ? "flex" : "hidden" } bg-black w-full h-full p-6 flex-col space-y-8 z-30`}>
+            <div className={`absolute ${mobileMenuOpen ? "flex" : "hidden" } bg-yellow-400 w-full h-full p-6 flex-col space-y-8 z-30`}>
                 <div className={`flex flex-col py-2 space-y-4 ${i18n.dir() === "rtl" && "text-right items-end"}`}>
                     <LeftToRightMenu />
                     <div className="pt-8 py-2 space-y-4">
