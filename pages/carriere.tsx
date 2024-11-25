@@ -13,21 +13,16 @@ export default function AboutPage() {
         
 
     return (
-        <div className="bg-yellow-400 h-screen md:h-full">
+        <div className="bg-black text-white h-screen md:h-full">
             <Head>
             <title>Carrière</title>
             </Head>
             <PageHeader />
-            <div className="bg-yellow-400">
+            <div className="bg-black">
                 <div className="flex flex-row justify-center">
-                    <Image 
-                    src="/assets/images/illustrations/peep-standing-27.svg" 
-                    className="hidden sm:flex lg:w-1/6" 
-                    width={220} height={400} 
-                    alt="Standing boy with mustache"/>
                     <div className="p-6 space-y-4">
                         <h1 className="text-2xl font-bold"> 
-                        Rejoignez-notre équipe de passionnés !
+                        Rejoignez-notre équipe de passionnés
                         </h1>
                         <p className="">
                         Rejoignez-nous afin de créer la meilleure expérience de plannification de trajet.<br/>
@@ -138,10 +133,10 @@ export default function AboutPage() {
                     </div>
                 </div>
             </div>
-            <div className="bg-yellow-400 hidden md:block py-20">
+            <div className="bg-black hidden md:block py-20">
                 <PageFooter />
             </div>
-            <div className="bg-yellow-400 md:hidden py-10">
+            <div className="bg-black md:hidden py-10">
                 <MobileFooter />
             </div>
         </div>

@@ -18,13 +18,13 @@ export default function PageFooter () {
     return(
         <>
             <div className="flex flex-row justify-center">
-                <div className="flex flex-col text-center">
-                    {i18n.language === 'fr' || i18n.language === 'en' ? 
+                <div className="flex text-white flex-col text-center">
+                    {/* {i18n.language === 'fr' || i18n.language === 'en' ? 
                     <span>{t("Made_with_love_in")}</span>
                     :
                     <span>{t("Made_with_love_in")}</span>
-                    }
-                    <Link href="/cgu" className="font-bold underline py-4">
+                    } */}
+                    <Link href="/cgu" className="font-bold text-white underline py-4">
                         {t("Terms_of_service")}
                     </Link>
                 </div>

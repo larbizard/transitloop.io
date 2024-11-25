@@ -7,7 +7,7 @@ import Head from 'next/head'
 
 export default function TermsOfUse() {
   return (
-    <div className="bg-yellow-400 h-full scroll-smooth">
+    <div className="bg-black text-white h-full scroll-smooth">
       <Head>
         <title>Conditions générales d'utilisation</title>
       </Head>
@@ -22,7 +22,7 @@ export default function TermsOfUse() {
               Bienvenue sur TransitLoop !
             </h2>
             <p className="py-2">
-            Les présentes conditions générales décrivent les règles et règlements relatifs à l'utilisation du site web et de l'application de Mdina Mapper, situé à l'adresse <a href="https://www.TransitLoop.ma/" className="font-bold">https://www.TransitLoop.ma</a>.<br/>
+            Les présentes conditions générales décrivent les règles et règlements relatifs à l'utilisation du site web et de l'application de Mdina Mapper, situé à l'adresse <a href="https://www.TransitLoop.io/" className="font-bold">https://www.TransitLoop.io</a>.<br/>
             </p>
             <p>
             En accédant à ce site web, nous supposons que vous acceptez ces conditions générales. Ne continuez pas à utiliser TransitLoop si vous n'acceptez pas de prendre toutes les conditions générales énoncées sur cette page.<br/>

@@ -23,22 +23,22 @@ export default function PageHeader () {
         return(
             <>
                 <Link href="/">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/" ? "underline" : "text-black"}`}>
+                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/" && "underline"}`}>
                         {t("Home")}
                     </h2>
                 </Link>
-                <Link href="/carriere">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/carriere" ? "underline" : "text-black"}`}>
+                {/* <Link href="/carriere">
+                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/carriere" && "underline"}`}>
                         {t("Career")}
                     </h2>
                 </Link>
                 <Link href="/about">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/about" ? "underline" : "text-black"}`}>
+                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/about" && "underline"}`}>
                         {t("About_us")}
                     </h2>
-                </Link>
+                </Link> */}
                 <Link href="/contact">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/contact" ? "underline" : "text-black"}`}>
+                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/contact" && "underline"}`}>
                         {t("Contact_us")}
                     </h2>
                 </Link>
@@ -50,23 +50,23 @@ export default function PageHeader () {
         return(
             <>
                 <Link href="/contact">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/contact" ? "underline" : "text-black"}`}>
+                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/contact" && "underline"}`}>
                         {t("Contact_us")}
                     </h2>
                 </Link>
-                <Link href="/about">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/about" ? "underline" : "text-black"}`}>
+                {/* <Link href="/about">
+                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/about" && "underline"}`}>
                         {t("About_us")}
                     </h2>
                 </Link>
                 <Link href="/carriere">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/carriere" ? "underline" : "text-black"}`}>
+                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/carriere" && "underline"}`}>
                         {t("Career")}
                     </h2>
-                </Link>
+                </Link> */}
 
                 <Link href="/">
-                    <h2 className={`text-xl cursor-pointer hover:text-white ${router.asPath == "/" ? "underline" : "text-black"}`}>
+                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/" && "underline"}`}>
                         {t("Home")}
                     </h2>
                 </Link>
@@ -98,7 +98,7 @@ export default function PageHeader () {
                                 <Image src="/assets/images/transitloop_logo_no_text_hover.svg" width={25} height={60} alt="Logo no text hover" />
                             </div>
                         </div>
-                        <h1 className="text-2xl">
+                        <h1 className="text-2xl text-white">
                             TransitLoop
                         </h1>
                     </div>
@@ -106,9 +106,10 @@ export default function PageHeader () {
                 <div className="hidden lg:flex menu flex-col space-y-4">
         
                     <div className="hidden lg:flex menu flex-row justify-between space-x-8">
-                        <Link href="#"><Icon.Facebook className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="#"><Icon.Instagram className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="#"><Icon.Twitter className="hidden lg:block cursor-pointer hover:text-white" size={25} /></Link>
+                        <Link href="https://facebook.com/transitloop"><Icon.Facebook className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
+                        {/* <Link href="#"><Icon.Instagram className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
+                        <Link href="#"><Icon.Twitter className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link> */}
+                        <Link href="https://www.linkedin.com/company/transitloop"><Icon.Linkedin className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
                     {i18n.language === 'fr' || i18n.language === 'en' ? 
                         <LeftToRightMenu />
                     
@@ -117,7 +118,7 @@ export default function PageHeader () {
                         <RightToLeftMenu />
                     }
                     </div>
-                    <div className="hidden lg:flex flex-row self-end cursor-pointer">
+                    <div className="hidden text-white lg:flex flex-row self-end cursor-pointer">
                         <h1 
                             className={`pr-2 text-xl font-bold ${i18n.language === 'en' ? 'underline' : ''}`}
                             onClick={() => i18n.changeLanguage('en')}
@@ -139,47 +140,48 @@ export default function PageHeader () {
                     </div>
                 </div>
                 {!mobileMenuOpen ?
-                <Icon.Menu className="lg:hidden cursor-pointer" size={25} onClick={() => setMobileMenuOpen(true)}/> :
-                <Icon.X className="lg:hidden cursor-pointer" size={25} onClick={() => setMobileMenuOpen(false)}/>}
+                <Icon.Menu className="lg:hidden text-white cursor-pointer" size={25} onClick={() => setMobileMenuOpen(true)}/> :
+                <Icon.X className="lg:hidden text-white cursor-pointer" size={25} onClick={() => setMobileMenuOpen(false)}/>}
             </div>
-            <div className={`absolute ${mobileMenuOpen ? "flex" : "hidden" } bg-yellow-400 w-full h-full p-6 flex-col space-y-8 z-30`}>
+            <div className={`absolute ${mobileMenuOpen ? "flex" : "hidden" } bg-black w-full h-full p-6 flex-col space-y-8 z-30`}>
                 <div className={`flex flex-col py-2 space-y-4 ${i18n.dir() === "rtl" && "text-right items-end"}`}>
                     <LeftToRightMenu />
                     <div className="pt-8 py-2 space-y-4">
-                        <Icon.Globe className="lg:hidden cursor-pointer" size={25}/>
+                        <Icon.Globe className="lg:hidden text-white cursor-pointer" size={25}/>
                     </div>
                     <div className="py-2 space-y-4">
                         <h1 
-                            className={`cursor-pointer text-xl ${i18n.language === 'en' ? 'underline' : ''}`}
+                            className={`cursor-pointer text-white text-xl ${i18n.language === 'en' ? 'underline' : ''}`}
                             onClick={() => {i18n.changeLanguage('en'); setMobileMenuOpen(false);}}
                         >
                             English
                         </h1>
                         <h1 
-                            className={`cursor-pointer text-xl ${i18n.language === 'fr' ? 'underline' : ''}`}
+                            className={`cursor-pointer text-white text-xl ${i18n.language === 'fr' ? 'underline' : ''}`}
                             onClick={() => {i18n.changeLanguage('fr'); setMobileMenuOpen(false);}}
                         >
                             Français
                         </h1>
                         <h1 
-                            className={`cursor-pointer text-xl ${i18n.language === 'ar' ? 'underline' : ''}`}
+                            className={`cursor-pointer text-white text-xl ${i18n.language === 'ar' ? 'underline' : ''}`}
                             onClick={() => {i18n.changeLanguage('ar'); setMobileMenuOpen(false);}}
                         >
                             العربية
                         </h1>
                     </div>
                     <div className="pt-8 py-2 space-y-4">
-                        <Icon.Umbrella className="lg:hidden cursor-pointer" size={25}/>
+                        <Icon.Umbrella className="lg:hidden text-white cursor-pointer" size={25}/>
                     </div>
                     <div className="flex flex-col space-y-4">
-                        <Link href="/cgu" className="text-xl">
+                        <Link href="/cgu" className="text-xl text-white">
                             {t("Terms_of_service")}
                         </Link>
                     </div>
                     <div className="flex flex-row pt-8 space-x-4 py-4">
-                        <Link href="#"><Icon.Facebook className="cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="#"><Icon.Instagram className="cursor-pointer hover:text-white" size={25} /></Link>
-                        <Link href="#"><Icon.Twitter className="cursor-pointer hover:text-white" size={25} /></Link>
+                    <Link href="https://facebook.com/transitloop"><Icon.Facebook className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
+                        {/* <Link href="#"><Icon.Instagram className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
+                        <Link href="#"><Icon.Twitter className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link> */}
+                        <Link href="https://www.linkedin.com/company/transitloop"><Icon.Linkedin className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
                     </div>
                 </div>
             </div>

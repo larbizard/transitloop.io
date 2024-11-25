@@ -12,7 +12,7 @@ export default function AboutPage() {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-yellow-400 h-screen md:h-full">
+    <div className="bg-black h-screen md:h-full">
       <Head>
         <title>{t("Cities")}</title>
       </Head>

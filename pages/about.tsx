@@ -12,17 +12,13 @@ export default function AboutPage() {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-yellow-400 h-screen md:h-full">
+    <div className="bg-black text-white h-screen md:h-full">
       <Head>
         <title>À propos</title>
       </Head>
       <PageHeader />
       <div>
-        <div className="flex flex-row justify-center">
-          <Image src="/assets/images/illustrations/standing.svg" 
-          className="hidden sm:flex lg:w-1/6"  
-          width={250} height={400} 
-          alt="Setting on weelchair girl"/>
+        <div className="flex flex-row justify-center">          
           <div className="p-6 lg:w-1/2 space-y-4">
             <h1 className="text-2xl font-bold"> 
               {t("About.Title")}

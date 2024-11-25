@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 export default function ModesIconsLine() {
-    return (<div className="bg-yellow-400 flex flex-col md:py-4">
+    return (<div className="bg-black flex flex-col md:py-4">
         <div className="hidden md:flex flex-row justify-center p-8">
             <div className="flex flex-row items-center">
                 <Image src="/assets/images/icons/location.svg" className="hover:text-white" width={30} height={30} alt="Location icon" />
