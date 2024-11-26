@@ -143,13 +143,13 @@ export default function IndexPage() {
       </div> */}
       <ExitPoint />
 
-      <div className="center">
-      <img
+      <div className="center bg-black py-10 lg:py-20">
+        <img
           alt=""
-          src="/assets/images/transitloop_logo.svg"
+          src="/assets/images/transitloop_logo_no_text.svg"
           className="mx-auto h-12"
         />
-        </div>
+      </div>
       <h1 className="bg-black text-white text-4xl text-center py-2">
         TransitLoop
       </h1>

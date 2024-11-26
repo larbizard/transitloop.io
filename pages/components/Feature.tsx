@@ -14,7 +14,7 @@ type FeatureProps = {
 const Feature = (data: FeatureProps) => {
   const { title, features } = data;
   return (
-    <div className="bg-black py-4 sm:py-10 mb-20">
+    <div className="bg-black sm:py-10 mb-20 py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="mt-8 text-pretty text-2xl font-semibold tracking-tight text-white sm:text-2xl lg:text-balance">
