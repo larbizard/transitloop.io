@@ -2,8 +2,10 @@ import { useTranslation } from "react-i18next";
 import {
   ArrowPathIcon,
   BellAlertIcon,
+  BugAntIcon,
   BuildingLibraryIcon,
   CloudArrowUpIcon,
+  EyeDropperIcon,
   FingerPrintIcon,
   LockClosedIcon,
   PaperAirplaneIcon,
@@ -50,7 +52,7 @@ const amoFeatures = {
 };
 
 const appFeatures = {
-  title: "Application en Marque blanche",
+  title: "Application en Marque grise",
   features: [
     {
       name: "Planification d’itinéraires, mobilité multimodale, alertes en temps réel",
@@ -59,10 +61,22 @@ const appFeatures = {
       icon: BellAlertIcon,
     },
     {
-      name: "Intégrations possibles à differents modes de tansport",
+      name: "Intégrations possibles à différents modes de transport",
       description:
         "L'application peut être intégrée à différents modes de transport (bus, train, vélo, marche, etc.) et à des services tiers (météo, trafic, etc.).",
       icon: RssIcon,
+    },
+    {
+      name: "Maintenance et support technique",
+      description:
+        "Nous assurons la maintenance et le support technique de l'application.",
+      icon: BugAntIcon,
+    },
+    {
+      name: "Personnalisation et déploiement",
+      description:
+        "Nous dépoyons l'application en marque grise aux couleurs de votre collectivité. ",
+      icon: EyeDropperIcon,
     },
   ],
 };
@@ -71,22 +85,22 @@ const dataFeatures = {
   title: "Production de données structurées",
   features: [
     {
-      name: "Création et structuration de données GTFS théoriques",
+      name: "Création et structuration de données théoriques",
       description:
-        "Structuration des données statiques des réseaux de transport (horaires, itinéraires, arrêts, tarifs). Construction et validation des fichiers GTFS conformes aux normes internationales",
+        "Structuration des données statiques des réseaux de transport (horaires, itinéraires, arrêts, tarifs). Construction et validation des fichiers au standard GTFS conformes aux normes internationales",
       icon: Square3Stack3DIcon,
+    },
+    {
+      name: "Génération de flux temps réel",
+      description:
+        "Génération de flux temps réel sur les positions des véhicules, les horaires de passage, et les alertes et incidents de service au format GTFS-RT. Diffusion des données en temps réel. Optimisation des flux pour garantir une fiabilité et une actualisation rapide.",
+      icon: SignalIcon,
     },
     {
       name: "Intégrations à des plateformes tierces",
       description:
         "Intégration des données avec Google Transit pour une visibilité accrue auprès des usagers",
       icon: SwatchIcon,
-    },
-    {
-      name: "Génération de flux temps réel",
-      description:
-        "Génération de flux temps réel sur les positions des véhicules, les horaires de passage, et les incidents de service. Développement de solutions pour récupérer, transformer et diffuser ces données en temps réel. Optimisation des flux pour garantir une fiabilité et une actualisation rapide.",
-      icon: SignalIcon,
     },
     {
       name: "Développement et gestion d’API de mobilité",
@@ -100,11 +114,11 @@ const dataFeatures = {
 const Features = () => {
   return (
     <div className="">
-      <Feature {...amoFeatures} />
+      <Feature {...dataFeatures} />
       <Founder />
       <Feature {...appFeatures} />
       <DownloadApp />
-      <Feature {...dataFeatures} />
+      <Feature {...amoFeatures} />
     </div>
   );
 };

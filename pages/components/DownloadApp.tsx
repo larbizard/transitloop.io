@@ -11,14 +11,14 @@ const DownloadApp = () => {
     return (
       <div {...props}>
         <h1
-          className={`text-4xl text-black font-black  ${
+          className={`text-2xl xl:text-4xl text-black font-black  ${
             i18n.language === "ar" ? "text-right" : ""
           }`}
         >
           {t("Welcome_message")}
         </h1>
         <div
-          className={`flex ${
+          className={`flex flex-col xl:flex-row ${
             i18n.language === "ar" ? "justify-end" : "justify-start"
           } py-4`}
         >
@@ -35,7 +35,7 @@ const DownloadApp = () => {
             />
           </Link>
           <Link
-            className="pl-2"
+            className="pt-2 xl:pt-0 xl:pl-2"
             href="https://apps.apple.com/us/app/mdinamapper/id1662853420"
           >
             <Image
@@ -57,7 +57,7 @@ const DownloadApp = () => {
       <div className="flex flex-col justify-center bg-white pt-10">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 py-20 lg:text-center">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-black sm:text-5xl lg:text-balance">
-            Notre application en marque blanche est déployée dans plusieurs villes du Maroc sous le nom de <a href="https://mdinamapper.com" className="underline">MdinaMapper</a>
+            Notre application en marque grise est déployée dans plusieurs villes du Maroc sous le nom de <a href="https://mdinamapper.com" className="underline">MdinaMapper</a>
           </p>
         </div>
       </div>
@@ -83,7 +83,7 @@ const DownloadApp = () => {
               height={700}
               alt="Android badge"
             />
-            <TextComponent className="flex flex-col md:w-1/5 justify-center py-10 px-4 hidden md:block py-10 mx-4" />
+            <TextComponent className="flex flex-col md:w-1/5 justify-centerpx-4 hidden md:block py-10 mx-4" />
           </>
         )}
       </div>

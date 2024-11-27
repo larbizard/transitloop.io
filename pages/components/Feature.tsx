@@ -1,6 +1,10 @@
 import Image from "next/image";
 import i18n from "i18next";
 import Link from "next/link";
+import {
+  AdjustmentsVerticalIcon,
+  LightBulbIcon,
+} from "@heroicons/react/24/outline";
 
 type FeatureProps = {
   title: string;
@@ -42,6 +46,7 @@ const Feature = (data: FeatureProps) => {
             ))}
           </dl>
         </div>
+        <div className="flex flex-row justify-center"></div>
       </div>
     </div>
   );
