@@ -9,8 +9,8 @@ const EntryPoint = () => {
           alt="img"
           className="h-screen w-full object-cover opacity-70"
         />
-        <div className="w-full absolute top-0 left-0 pt-28 xl:pt-96 px-4 lg:px-96">
-          <h2 className="text-5xl lg:text-7xl font-bold text-white text-start lg:w-2/3 overflow-hidden">
+        <div className="w-full absolute top-0 left-0 pt-28 xl:pt-96 px-4 xl:px-96">
+          <h2 className="text-5xl lg:text-7xl font-bold text-white text-start lg:w-2/3">
             Construisons ensemble la mobilité de demain
           </h2>
           <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
