@@ -75,7 +75,7 @@ const appFeatures = {
     {
       name: "Personnalisation et déploiement",
       description:
-        "Nous dépoyons l'application en marque grise aux couleurs de votre collectivité. ",
+        "Nous déployons l'application en marque grise aux couleurs de votre collectivité. ",
       icon: EyeDropperIcon,
     },
   ],
