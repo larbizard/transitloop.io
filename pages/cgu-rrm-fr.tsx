@@ -123,6 +123,12 @@ export default function TermsOfUse() {
               <li>Elles peuvent être transmises uniquement aux partenaires impliqués dans les services de planification d'itinéraires (opérateurs de tramway, bus, vélo-taxi, parkings).</li>
               <li>Le Client dispose d'un droit d'accès, de rectification et d'opposition.</li>
             </ul>
+            <p className="py-2">
+              Par le biais de ce formulaire, TransitLoop collecte vos données personnelles en vue de permettre le fonctionnement de l'application de Rabat Région Mobilité. Ce traitement a fait l'objet d'une déclaration / demande d'autorisation auprès de la CNDP sous le numéro ………… Les données personnelles collectées peuvent être transmises à TransitLoop et à Rabat Région Mobilité conformément à la demande de transfert déposée auprès de la CNDP.
+            </p>
+            <p className="py-2">
+              Vous pouvez vous adresser à contact@transitloop.io pour exercer vos droits d'accès, de rectification et d'opposition conformément aux dispositions de la loi 09-08.
+            </p>
 
             <h3 className="text-xl font-bold py-4">Article 10 : Engagements du Client</h3>
             <p className="py-2">Le Client s'engage à :</p>

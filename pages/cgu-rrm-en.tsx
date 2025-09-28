@@ -122,6 +122,12 @@ export default function TermsOfUse() {
                             <li>It may be transmitted only to partners involved in route planning services (tramway, bus, motorcycle, parking operators).</li>
                             <li>The Client has the right to access, rectification, and opposition.</li>
                         </ul>
+                        <p className="py-2">
+                            Through this form, TransitLoop collects your personal data in order to enable the operation of the Rabat Region Mobility application. This processing has been subject to a declaration / authorization request to the CNDP under number ………… The collected personal data may be transmitted to TransitLoop and to Rabat Region Mobility in accordance with the transfer request filed with the CNDP.
+                        </p>
+                        <p className="py-2">
+                            You can contact contact@transitloop.io to exercise your rights of access, rectification and opposition in accordance with the provisions of law 09-08.
+                        </p>
 
                         <h3 className="text-xl font-bold py-4">Article 10: Client Commitments</h3>
                         <p className="py-2">The Client undertakes to:</p>
