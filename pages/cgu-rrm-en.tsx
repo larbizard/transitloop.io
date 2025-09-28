@@ -36,6 +36,9 @@ export default function TermsOfUse() {
                             <strong>"Rabat Region Mobility" and/or "RRM"</strong>: a Moroccan joint-stock company, with its registered office at 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco, registered in the Rabat Commercial Register under number 75799, publisher of the Application and responsible for managing and marketing the aforementioned mobility services.
                         </p>
                         <p className="py-2">
+                            <strong>"Transdev Rabat-Salé"</strong>: operator of the Rabat-Salé tramway, RRM partner for tramway service operation.
+                        </p>
+                        <p className="py-2">
                             <strong>"Client"</strong>: any natural person who has opened a Client Account in the Application, resident or non-resident in Morocco.
                         </p>
                         <p className="py-2">

@@ -37,6 +37,9 @@ export default function TermsOfUse() {
               <strong>« Rabat Région Mobilité » et/ou « RRM »</strong> : société anonyme de droit marocain, ayant son siège social sis au 1 Rue Ghafsa, Place Al Joulane, Rabat, Maroc, inscrite au registre de commerce de Rabat sous le numéro 75799, éditrice de l'Application et responsable de la gestion et de la commercialisation des services de mobilité susmentionnés.
             </p>
             <p className="py-2">
+              <strong>« Transdev Rabat-Salé »</strong> : exploitant du tramway Rabat-Salé, partenaire de la RRM pour l'exploitation du service de tramway.
+            </p>
+            <p className="py-2">
               <strong>« Client »</strong> : toute personne physique ayant ouvert un Compte Client dans l'Application, résidente ou non au Maroc.
             </p>
             <p className="py-2">
