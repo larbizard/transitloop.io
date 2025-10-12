@@ -230,7 +230,6 @@ export default function TermsOfUse() {
                         <h3 className="text-xl font-bold py-4">Article 12: Complaints</h3>
                         <p className="py-2">The Client may address any complaint:</p>
                         <ul className="list-disc ml-4 p-4">
-                            <li>By email: reclamation@transitloop.io</li>
                             <li>By mail: Rabat Region Mobility – 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco</li>
                         </ul>
 

@@ -231,7 +231,6 @@ export default function TermsOfUse() {
             <h3 className="text-xl font-bold py-4">Article 12 : Réclamations</h3>
             <p className="py-2">Le Client peut adresser toute réclamation :</p>
             <ul className="list-disc ml-4 p-4">
-              <li>Par e-mail : reclamation@transitloop.io</li>
               <li>Par courrier : Rabat Région Mobilité – 1 Rue Ghafsa, Place Al Joulane, Rabat, Maroc</li>
             </ul>
 
