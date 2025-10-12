@@ -48,7 +48,7 @@ export default function TermsOfUse() {
                             <strong>"MaaS Services"</strong>: refer to all services offered by the Application, namely: trip planning, multimodal route calculation, transport options comparison, and information on available transport modes (tramway, buses, motorcycles, RRM parking).
                         </p>
                         <p className="py-2">
-                            <strong>"Secret Code" / "Password"</strong>: personalized security device allowing secure access to the Client Account.
+                            <strong>"Secret Code" / "Password"</strong>: temporary code sent via SMS or WhatsApp to the user's phone number for secure access to the Client Account.
                         </p>
                         <p className="py-2">
                             <strong>"Customer Service"</strong>: service responsible for receiving and processing Client complaints.
@@ -100,7 +100,7 @@ export default function TermsOfUse() {
 
                         <h3 className="text-xl font-bold py-4">Article 6: Security and Confidentiality</h3>
                         <ul className="list-disc ml-4 p-4">
-                            <li>Account access is protected by a password/Secret code chosen by the Client.</li>
+                            <li>Account access is protected by a temporary code sent via SMS or WhatsApp to the user's phone number.</li>
                             <li>The Client is responsible for the confidentiality of their credentials.</li>
                             <li>In case of loss, theft, or fraud, the Client must immediately inform Customer Service.</li>
                             <li>After 3 consecutive failures, Account access is blocked.</li>

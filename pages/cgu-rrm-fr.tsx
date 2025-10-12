@@ -49,7 +49,7 @@ export default function TermsOfUse() {
               <strong>« Services MaaS »</strong> : désignent l'ensemble des services proposés par l'Application, à savoir : planification de trajets, calcul d'itinéraires multimodaux, comparaison d'options de transport et informations sur les modes de transport disponibles (tramway, bus, vélo-taxi, parkings RRM).
             </p>
             <p className="py-2">
-              <strong>« Code secret » / « Mot de passe »</strong> : dispositif de sécurité personnalisé permettant l'accès sécurisé au Compte Client.
+              <strong>« Code secret » / « Mot de passe »</strong> : code temporaire envoyé par SMS ou WhatsApp sur le numéro de téléphone de l'utilisateur pour l'accès sécurisé au Compte Client.
             </p>
             <p className="py-2">
               <strong>« Service Client »</strong> : service en charge de la réception et du traitement des réclamations des Clients.
@@ -101,7 +101,7 @@ export default function TermsOfUse() {
 
             <h3 className="text-xl font-bold py-4">Article 6 : Sécurité et Confidentialité</h3>
             <ul className="list-disc ml-4 p-4">
-              <li>L'accès au Compte est protégé par un mot de passe/Code secret choisi par le Client.</li>
+              <li>L'accès au Compte est protégé par un code temporaire envoyé par SMS ou WhatsApp sur le numéro de téléphone de l'utilisateur.</li>
               <li>Le Client est responsable de la confidentialité de ses identifiants.</li>
               <li>En cas de perte, vol ou fraude, le Client doit immédiatement informer le Service Client.</li>
               <li>Après 3 échecs consécutifs, l'accès au Compte est bloqué.</li>
