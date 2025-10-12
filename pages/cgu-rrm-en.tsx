@@ -129,7 +129,7 @@ export default function TermsOfUse() {
                         <p className="py-2">
                             <strong>TransitLoop</strong><br />
                             Registered office: 310, rue Omar Riffi, 20250 Casablanca, Morocco<br />
-                            Trade register: 671237<br />
+                            Trade register: Casablanca n° 671237<br />
                             Contact: contact@transitloop.io<br />
                             <br />
                             <strong>Rabat Region Mobility (RRM)</strong> - Partner<br />

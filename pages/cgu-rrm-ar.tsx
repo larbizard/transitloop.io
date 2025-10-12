@@ -129,7 +129,7 @@ export default function TermsOfUse() {
                         <p className="py-2">
                             <strong>ترانزيت لوب</strong><br />
                             المقر الاجتماعي: 310، شارع عمر الرفيعي، 20250 الدار البيضاء، المغرب<br />
-                            السجل التجاري: 671237<br />
+                            السجل التجاري: الدار البيضاء رقم 671237<br />
                             الاتصال: contact@transitloop.io<br />
                             <br />
                             <strong>الرباط الجهة للتنقل (ر.ج.ت)</strong> - شريك<br />
