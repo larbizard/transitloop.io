@@ -203,46 +203,6 @@ export default function TermsOfUse() {
               Vous avez le droit d'introduire une réclamation auprès de la CNDP si vous estimez que vos droits ne sont pas respectés.
             </p>
 
-            <h3 className="text-xl font-bold py-4">Article 9.1 : Sous-traitance des Données par TransitLoop</h3>
-            <p className="py-2">
-              Afin de garantir le secret, la sécurité et la confidentialité des données des utilisateurs de l'application Rabat Région Mobilité, TransitLoop s'engage à :
-            </p>
-            <ul className="list-disc ml-4 p-4">
-              <li>prendre toutes précautions utiles, afin de préserver la sécurité des données, notamment empêcher qu'elles ne soient déformées, endommagées et empêcher tout accès qui ne serait pas préalablement autorisé par la RRM ;</li>
-              <li>ne traiter les données que dans le cadre des instructions et de l'autorisation reçues de la RRM ;</li>
-              <li>ne traiter les informations qu'entièrement et exclusivement en son sein et dans le cadre du présent contrat ;</li>
-              <li>s'assurer de la licéité des traitements réalisés dans le cadre de la mission confiée ;</li>
-              <li>ne pas recourir aux services d'un sous-traitant, sauf à ce que ce dernier soit préalablement et expressément habilité par la RRM et agisse sous sa responsabilité et le contrôle de TransitLoop, dans le cadre d'un contrat soumis à la validation préalable de la RRM et permettant d'assurer le respect des obligations souscrites par TransitLoop ;</li>
-              <li>respecter son obligation de secret, de sécurité et de confidentialité, à l'occasion de toute opération de maintenance et de télémaintenance, réalisée au sein des locaux de TransitLoop ou de toute société intervenant dans le cadre du traitement ;</li>
-              <li>prendre toutes mesures de sécurité, notamment matérielle et logique, pour assurer la conservation et l'intégrité des données traitées ;</li>
-              <li>prendre toutes mesures permettant d'empêcher toute utilisation détournée, malveillante ou frauduleuse des données traitées ;</li>
-              <li>procéder, en fin de contrat, à la destruction des données, fichiers informatisés ou manuels, figurant sur tout support.</li>
-            </ul>
-            <p className="py-2">
-              Par ailleurs, TransitLoop s'interdit :
-            </p>
-            <ul className="list-disc ml-4 p-4">
-              <li>de divulguer, sous quelque forme que ce soit, tout ou partie des informations contenues dans des fichiers informatisés ou manuels, ou figurant sur tout support transmis par la RRM ou concernant les informations recueillies au cours de l'exécution du présent contrat ;</li>
-              <li>d'utiliser les supports ou documents qui lui ont été confiés, par quelque moyen ou finalité que ce soit, pour son compte ou pour le compte de tiers, à des fins professionnelles, personnelles ou privées autres que celles définies au présent contrat, tout ou partie des informations contenues sur lesdits supports ou recueillies par elle au cours de l'exécution du présent contrat ;</li>
-              <li>de prendre copie ou stocker, quelles qu'en soient la forme et la finalité, tout ou partie des informations contenues sur les supports ou documents qui lui ont été confiés ou recueillies par elle au cours de l'exécution du présent contrat.</li>
-            </ul>
-            <p className="py-2">
-              TransitLoop s'engage :
-            </p>
-            <ul className="list-disc ml-4 p-4">
-              <li>à première demande de la RRM à apporter la preuve qu'il dispose des moyens organisationnels, techniques et financiers permettant de garantir le respect et l'effectivité de l'obligation de secret, de confidentialité et de sécurité résultant du contrat ;</li>
-              <li>à coopérer avec la RRM dans toutes circonstances mettant en jeu l'obligation de secret, de confidentialité et de sécurité ;</li>
-              <li>à permettre la réalisation par la RRM ou toute personne mandatée par cette dernière et sous réserve que les vérificateurs ne soient pas des concurrents directs de TransitLoop, de toute vérification lui paraissant utile de l'exécution des obligations par TransitLoop. TransitLoop s'engage à coopérer de bonne foi et sans réserve avec les vérificateurs dès lors qu'il sera avisé de la réalisation d'un audit ;</li>
-              <li>à mettre en œuvre à ses frais et sans délai toutes mesures correctives soulignées dans le rapport de vérification.</li>
-            </ul>
-            <p className="py-2">
-              TransitLoop reconnaît :
-            </p>
-            <ul className="list-disc ml-4 p-4">
-              <li>qu'en cas de non-respect des obligations souscrites dans le cadre du présent contrat, sa responsabilité pourra être engagée pénalement ;</li>
-              <li>qu'il pourra être tenu responsable envers la RRM des dommages qui seraient causés par suite d'un manquement aux obligations résultant du présent contrat, ainsi qu'au versement de réparations du préjudice subi ;</li>
-              <li>que la RRM pourra prononcer la résiliation immédiate du contrat de prestation de services, sans indemnité en faveur de TransitLoop, en cas de non-respect du secret, de la confidentialité et de la sécurité des données.</li>
-            </ul>
 
             <h3 className="text-xl font-bold py-4">Article 10 : Engagements du Client</h3>
             <p className="py-2">Le Client s'engage à :</p>

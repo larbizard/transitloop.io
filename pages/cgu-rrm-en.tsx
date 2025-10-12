@@ -202,46 +202,6 @@ export default function TermsOfUse() {
                             You have the right to file a complaint with the CNDP if you believe your rights are not being respected.
                         </p>
 
-                        <h3 className="text-xl font-bold py-4">Article 9.1: Data Subcontracting by TransitLoop</h3>
-                        <p className="py-2">
-                            To guarantee the secrecy, security and confidentiality of data from users of the Rabat Region Mobility application, TransitLoop undertakes to:
-                        </p>
-                        <ul className="list-disc ml-4 p-4">
-                            <li>take all useful precautions to preserve data security, in particular prevent them from being distorted, damaged and prevent any access that would not be previously authorized by RRM;</li>
-                            <li>process data only within the framework of instructions and authorization received from RRM;</li>
-                            <li>process information entirely and exclusively within its organization and within the framework of this contract;</li>
-                            <li>ensure the lawfulness of processing carried out within the framework of the assigned mission;</li>
-                            <li>not use the services of a subcontractor, unless the latter is previously and expressly authorized by RRM and acts under its responsibility and under the control of TransitLoop, within the framework of a contract subject to prior validation by RRM and allowing to ensure compliance with the obligations undertaken by TransitLoop;</li>
-                            <li>respect its obligation of secrecy, security and confidentiality, during any maintenance and remote maintenance operation, carried out within TransitLoop's premises or any company intervening in the framework of processing;</li>
-                            <li>take all security measures, in particular material and logical, to ensure the conservation and integrity of processed data;</li>
-                            <li>take all measures to prevent any diverted, malicious or fraudulent use of processed data;</li>
-                            <li>proceed, at the end of the contract, to the destruction of data, computerized or manual files, appearing on any medium.</li>
-                        </ul>
-                        <p className="py-2">
-                            Furthermore, TransitLoop prohibits itself from:
-                        </p>
-                        <ul className="list-disc ml-4 p-4">
-                            <li>disclosing, in any form whatsoever, all or part of the information contained in computerized or manual files, or appearing on any medium transmitted by RRM or concerning information collected during the execution of this contract;</li>
-                            <li>using the media or documents that have been entrusted to it, by any means or purpose whatsoever, for its own account or for the account of third parties, for professional, personal or private purposes other than those defined in this contract, all or part of the information contained on said media or collected by it during the execution of this contract;</li>
-                            <li>copying or storing, whatever their form and purpose, all or part of the information contained on the media or documents that have been entrusted to it or collected by it during the execution of this contract.</li>
-                        </ul>
-                        <p className="py-2">
-                            TransitLoop undertakes to:
-                        </p>
-                        <ul className="list-disc ml-4 p-4">
-                            <li>at the first request of RRM to provide proof that it has the organizational, technical and financial means to guarantee respect and effectiveness of the obligation of secrecy, confidentiality and security resulting from the contract;</li>
-                            <li>cooperate with RRM in all circumstances involving the obligation of secrecy, confidentiality and security;</li>
-                            <li>allow RRM or any person mandated by the latter and provided that the auditors are not direct competitors of TransitLoop, to carry out any verification it deems useful of the execution of obligations by TransitLoop. TransitLoop undertakes to cooperate in good faith and without reservation with the auditors as soon as it is notified of the conduct of an audit;</li>
-                            <li>implement at its expense and without delay all corrective measures highlighted in the verification report.</li>
-                        </ul>
-                        <p className="py-2">
-                            TransitLoop acknowledges:
-                        </p>
-                        <ul className="list-disc ml-4 p-4">
-                            <li>that in case of non-compliance with the obligations undertaken within the framework of this contract, its responsibility may be engaged criminally;</li>
-                            <li>that it may be held responsible towards RRM for damages that would be caused as a result of a breach of the obligations resulting from this contract, as well as the payment of compensation for the damage suffered;</li>
-                            <li>that RRM may pronounce the immediate termination of the service provision contract, without compensation in favor of TransitLoop, in case of non-compliance with the secrecy, confidentiality and security of data.</li>
-                        </ul>
 
                         <h3 className="text-xl font-bold py-4">Article 10: Client Commitments</h3>
                         <p className="py-2">The Client undertakes to:</p>
