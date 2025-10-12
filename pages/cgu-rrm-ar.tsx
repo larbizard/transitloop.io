@@ -189,7 +189,7 @@ export default function TermsOfUse() {
                         <p className="py-2">
                             لممارسة حقوقكم، اتصلوا بنا:<br />
                             <strong>البريد الإلكتروني:</strong> contact@transitloop.io<br />
-                            <strong>البريد:</strong> الرباط الجهة للتنقل – 1 زنقة قفصة، ساحة الجولان، الرباط، المغرب
+                            <strong>البريد:</strong> ترانزيت لوب – 310، شارع عمر الرفيعي، 20250 الدار البيضاء، المغرب
                         </p>
 
                         <h4 className="text-lg font-semibold py-2">9.9. إعلان الهيئة الوطنية لحماية المعطيات الشخصية</h4>

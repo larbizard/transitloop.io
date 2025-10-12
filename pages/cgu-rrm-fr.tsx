@@ -190,7 +190,7 @@ export default function TermsOfUse() {
             <p className="py-2">
               Pour exercer vos droits, contactez-nous :<br />
               <strong>E-mail :</strong> contact@transitloop.io<br />
-              <strong>Courrier :</strong> Rabat Région Mobilité – 1 Rue Ghafsa, Place Al Joulane, Rabat, Maroc
+              <strong>Courrier :</strong> TransitLoop – 310, rue Omar Riffi, 20250 Casablanca, Maroc
             </p>
 
             <h4 className="text-lg font-semibold py-2">9.9. Déclaration CNDP</h4>

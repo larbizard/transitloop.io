@@ -189,7 +189,7 @@ export default function TermsOfUse() {
                         <p className="py-2">
                             To exercise your rights, contact us:<br />
                             <strong>Email:</strong> contact@transitloop.io<br />
-                            <strong>Mail:</strong> Rabat Region Mobility – 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco
+                            <strong>Mail:</strong> TransitLoop – 310, rue Omar Riffi, 20250 Casablanca, Morocco
                         </p>
 
                         <h4 className="text-lg font-semibold py-2">9.9. CNDP Declaration</h4>
