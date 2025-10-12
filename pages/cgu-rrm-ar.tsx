@@ -230,7 +230,7 @@ export default function TermsOfUse() {
                         <h3 className="text-xl font-bold py-4">المادة 12: الشكاوى</h3>
                         <p className="py-2">يمكن للعميل تقديم أي شكوى:</p>
                         <ul className="list-disc ml-4 p-4">
-                            <li>بالبريد الإلكتروني: [عنوان ر.ج.ت الرسمي]</li>
+                            <li>بالبريد الإلكتروني: reclamation@transitloop.io</li>
                             <li>بالبريد: الرباط الجهة للتنقل – 1 زنقة قفصة، ساحة الجولان، الرباط، المغرب</li>
                         </ul>
 
