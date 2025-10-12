@@ -122,16 +122,80 @@ export default function TermsOfUse() {
             </ul>
 
             <h3 className="text-xl font-bold py-4">Article 9 : Protection des Données Personnelles</h3>
-            <ul className="list-disc ml-4 p-4">
-              <li>Les données du Client sont traitées par la RRM conformément à la loi marocaine n°09-08.</li>
-              <li>Elles peuvent être transmises uniquement aux partenaires impliqués dans les services de planification d'itinéraires (opérateurs de tramway, bus, vélo-taxi, parkings).</li>
-              <li>Le Client dispose d'un droit d'accès, de rectification et d'opposition.</li>
-            </ul>
             <p className="py-2">
-              Par le biais de ce formulaire, TransitLoop collecte vos données personnelles en vue de permettre le fonctionnement de l'application de Rabat Région Mobilité. Ce traitement a fait l'objet d'une déclaration / demande d'autorisation auprès de la CNDP sous le numéro ………… Les données personnelles collectées peuvent être transmises à TransitLoop et à Rabat Région Mobilité conformément à la demande de transfert déposée auprès de la CNDP.
+              Conformément à l'article 5 de la loi marocaine n°09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel, les utilisateurs sont informés des caractéristiques suivantes du traitement de leurs données :
             </p>
+            
+            <h4 className="text-lg font-semibold py-2">9.1. Responsable du traitement</h4>
             <p className="py-2">
-              Vous pouvez vous adresser à contact@transitloop.io pour exercer vos droits d'accès, de rectification et d'opposition conformément aux dispositions de la loi 09-08.
+              <strong>Rabat Région Mobilité (RRM)</strong><br/>
+              Siège social : 1 Rue Ghafsa, Place Al Joulane, Rabat, Maroc<br/>
+              Registre de commerce : Rabat n° 75799<br/>
+              Contact : [adresse e-mail officielle RRM]
+            </p>
+            
+            <h4 className="text-lg font-semibold py-2">9.2. Finalités du traitement</h4>
+            <ul className="list-disc ml-4 p-4">
+              <li>Fourniture des services de planification d'itinéraires multimodaux</li>
+              <li>Calcul et comparaison d'itinéraires (tramway, bus, vélo-taxi, parkings)</li>
+              <li>Personnalisation de l'expérience utilisateur</li>
+              <li>Amélioration des services de transport public</li>
+              <li>Respect des obligations légales et réglementaires</li>
+            </ul>
+            
+            <h4 className="text-lg font-semibold py-2">9.3. Données collectées</h4>
+            <ul className="list-disc ml-4 p-4">
+              <li><strong>Données obligatoires :</strong> Numéro de téléphone</li>
+              <li><strong>Données optionnelles :</strong> Nom, prénom (pour personnalisation du profil)</li>
+              <li><strong>Données techniques :</strong> Adresse IP, cookies, données de géolocalisation (si autorisées)</li>
+              <li><strong>Données d'usage :</strong> Historique des recherches d'itinéraires, préférences de transport</li>
+            </ul>
+            
+            <h4 className="text-lg font-semibold py-2">9.4. Base légale du traitement</h4>
+            <p className="py-2">
+              Le traitement est fondé sur l'intérêt légitime de RRM à fournir des services de planification d'itinéraires et sur le consentement de l'utilisateur pour les données optionnelles.
+            </p>
+            
+            <h4 className="text-lg font-semibold py-2">9.5. Destinataires des données</h4>
+            <ul className="list-disc ml-4 p-4">
+              <li>Rabat Région Mobilité (RRM)</li>
+              <li>TransitLoop (sous-traitant technique)</li>
+              <li>Partenaires de transport (opérateurs de tramway, bus, vélo-taxi, parkings) - uniquement pour la planification d'itinéraires</li>
+              <li>Autorités compétentes (sur demande légale)</li>
+            </ul>
+            
+            <h4 className="text-lg font-semibold py-2">9.6. Durée de conservation</h4>
+            <p className="py-2">
+              Les données personnelles sont conservées pendant la durée d'utilisation du compte utilisateur et jusqu'à 3 ans après la clôture du compte, sauf obligation légale contraire.
+            </p>
+            
+            <h4 className="text-lg font-semibold py-2">9.7. Droits des utilisateurs</h4>
+            <p className="py-2">
+              Conformément à la loi 09-08, vous disposez des droits suivants :
+            </p>
+            <ul className="list-disc ml-4 p-4">
+              <li><strong>Droit d'accès :</strong> obtenir une copie de vos données personnelles</li>
+              <li><strong>Droit de rectification :</strong> corriger des données inexactes</li>
+              <li><strong>Droit d'opposition :</strong> vous opposer au traitement de vos données</li>
+              <li><strong>Droit de suppression :</strong> demander l'effacement de vos données</li>
+              <li><strong>Droit de portabilité :</strong> récupérer vos données dans un format structuré</li>
+            </ul>
+            
+            <h4 className="text-lg font-semibold py-2">9.8. Exercice des droits</h4>
+            <p className="py-2">
+              Pour exercer vos droits, contactez-nous :<br/>
+              <strong>E-mail :</strong> contact@transitloop.io<br/>
+              <strong>Courrier :</strong> Rabat Région Mobilité – 1 Rue Ghafsa, Place Al Joulane, Rabat, Maroc
+            </p>
+            
+            <h4 className="text-lg font-semibold py-2">9.9. Déclaration CNDP</h4>
+            <p className="py-2">
+              Ce traitement a fait l'objet d'une déclaration / demande d'autorisation auprès de la CNDP sous le numéro ………… Les données personnelles collectées peuvent être transmises à TransitLoop et à Rabat Région Mobilité conformément à la demande de transfert déposée auprès de la CNDP.
+            </p>
+            
+            <h4 className="text-lg font-semibold py-2">9.10. Réclamations</h4>
+            <p className="py-2">
+              Vous avez le droit d'introduire une réclamation auprès de la CNDP si vous estimez que vos droits ne sont pas respectés.
             </p>
 
             <h3 className="text-xl font-bold py-4">Article 9.1 : Sous-traitance des Données par TransitLoop</h3>
