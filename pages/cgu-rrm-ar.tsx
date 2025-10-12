@@ -128,7 +128,7 @@ export default function TermsOfUse() {
                         <h4 className="text-lg font-semibold py-2">9.1. مسؤول المعالجة</h4>
                         <p className="py-2">
                             <strong>ترانزيت لوب</strong><br />
-                            المقر الاجتماعي: [عنوان ترانزيت لوب]<br />
+                            المقر الاجتماعي: 310، شارع عمر الرفيعي، 20250 الدار البيضاء، المغرب<br />
                             الاتصال: contact@transitloop.io<br />
                             <br />
                             <strong>الرباط الجهة للتنقل (ر.ج.ت)</strong> - شريك<br />

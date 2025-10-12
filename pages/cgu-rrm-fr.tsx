@@ -129,7 +129,7 @@ export default function TermsOfUse() {
             <h4 className="text-lg font-semibold py-2">9.1. Responsable du traitement</h4>
             <p className="py-2">
               <strong>TransitLoop</strong><br />
-              Siège social : [adresse TransitLoop]<br />
+              Siège social : 310, rue Omar Riffi, 20250 Casablanca, Maroc<br />
               Contact : contact@transitloop.io<br />
               <br />
               <strong>Rabat Région Mobilité (RRM)</strong> - Partenaire<br />

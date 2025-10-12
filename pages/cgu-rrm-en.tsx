@@ -128,7 +128,7 @@ export default function TermsOfUse() {
                         <h4 className="text-lg font-semibold py-2">9.1. Data Controller</h4>
                         <p className="py-2">
                             <strong>TransitLoop</strong><br />
-                            Registered office: [TransitLoop address]<br />
+                            Registered office: 310, rue Omar Riffi, 20250 Casablanca, Morocco<br />
                             Contact: contact@transitloop.io<br />
                             <br />
                             <strong>Rabat Region Mobility (RRM)</strong> - Partner<br />
