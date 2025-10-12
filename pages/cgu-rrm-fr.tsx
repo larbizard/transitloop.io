@@ -82,7 +82,8 @@ export default function TermsOfUse() {
             <ul className="list-disc ml-4 p-4">
               <li>L'ouverture du Compte est gratuite.</li>
               <li>Elle est réservée aux personnes physiques disposant d'un smartphone et d'une connexion internet.</li>
-              <li>L'inscription nécessite la fourniture d'informations exactes (nom, prénom, CIN, téléphone, e-mail, etc.).</li>
+              <li>L'inscription nécessite uniquement la fourniture du numéro de téléphone.</li>
+              <li>Le nom et prénom sont optionnels et peuvent être ajoutés par l'utilisateur dans son profil après inscription pour personnaliser son expérience.</li>
               <li>La RRM peut suspendre un Compte en cas de fraude, fausse déclaration ou sur demande des autorités.</li>
             </ul>
 

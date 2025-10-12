@@ -81,7 +81,8 @@ export default function TermsOfUse() {
                         <ul className="list-disc ml-4 p-4">
                             <li>Account opening is free.</li>
                             <li>It is reserved for natural persons with a smartphone and internet connection.</li>
-                            <li>Registration requires providing accurate information (name, surname, ID card, phone, email, etc.).</li>
+                            <li>Registration requires only providing the phone number.</li>
+                            <li>Name and surname are optional and can be added by the user in their profile after registration to personalize their experience.</li>
                             <li>RRM may suspend an Account in case of fraud, false declaration, or upon request from authorities.</li>
                         </ul>
 
