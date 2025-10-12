@@ -162,9 +162,11 @@ export default function TermsOfUse() {
                         <ul className="list-disc ml-4 p-4">
                             <li>TransitLoop (data controller)</li>
                             <li>Rabat Region Mobility (RRM) - partner for route planning services</li>
-                            <li>Transport partners (tramway, bus, motorcycle, parking operators) - only for route planning</li>
                             <li>Competent authorities (upon legal request)</li>
                         </ul>
+                        <p className="py-2">
+                            <strong>Note:</strong> Transport partners (tramway, bus, motorcycle, parking operators) do not receive personal data. Only anonymized route information is used for planning purposes.
+                        </p>
 
                         <h4 className="text-lg font-semibold py-2">9.6. Retention Period</h4>
                         <p className="py-2">

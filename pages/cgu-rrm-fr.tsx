@@ -163,9 +163,11 @@ export default function TermsOfUse() {
             <ul className="list-disc ml-4 p-4">
               <li>TransitLoop (responsable du traitement)</li>
               <li>Rabat Région Mobilité (RRM) - partenaire pour les services de planification</li>
-              <li>Partenaires de transport (opérateurs de tramway, bus, vélo-taxi, parkings) - uniquement pour la planification d'itinéraires</li>
               <li>Autorités compétentes (sur demande légale)</li>
             </ul>
+            <p className="py-2">
+              <strong>Note :</strong> Les partenaires de transport (opérateurs de tramway, bus, vélo-taxi, parkings) ne reçoivent pas de données personnelles. Seules des informations anonymisées sur les itinéraires sont utilisées pour la planification.
+            </p>
 
             <h4 className="text-lg font-semibold py-2">9.6. Durée de conservation</h4>
             <p className="py-2">
