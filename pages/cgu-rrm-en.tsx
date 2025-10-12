@@ -64,7 +64,7 @@ export default function TermsOfUse() {
                         <ul className="list-disc ml-4 p-4">
                             <li>The terms and conditions for opening, using, and closing the Client Account,</li>
                             <li>Rules applicable to the use of route planning and calculation services,</li>
-                            <li>Respective rights and obligations of the Client and RRM in using the Application.</li>
+                            <li>Respective rights and obligations of the Client and TransitLoop in using the Application.</li>
                         </ul>
 
                         <h3 className="text-xl font-bold py-4">Article 2: Modification</h3>
