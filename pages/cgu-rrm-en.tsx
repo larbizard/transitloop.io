@@ -21,14 +21,14 @@ export default function TermsOfUse() {
             <div className="pt-20">
                 <div className="flex flex-row justify-center">
                     <div className="p-8 lg:px-20">
-                        <h1 className="text-2xl font-bold text-left mb-6">
+                        <h1 id="titre-principal" className="text-2xl font-bold text-left mb-6">
                             TERMS AND CONDITIONS OF USE
                         </h1>
-                        <h2 className="text-xl font-bold py-4 text-left">
+                        <h2 id="sous-titre" className="text-xl font-bold py-4 text-left">
                             for the MaaS Rabat Region Mobility Application
                         </h2>
 
-                        <h3 className="text-xl font-bold py-4">Definitions</h3>
+                        <h3 id="definitions" className="text-xl font-bold py-4">Definitions</h3>
                         <p className="py-2">
                             <strong>"MaaS Rabat Region Mobility Application" and/or "Application"</strong>: the mobile application allowing the Client to access route planning and calculation services for transport modes operated and/or managed by Rabat Region Mobility (RRM), namely: Rabat-Salé Tramway, Rabat Buses, Motorcycles, and RRM-managed Parking.
                         </p>
@@ -57,7 +57,7 @@ export default function TermsOfUse() {
                             <strong>"Parties"</strong>: collectively refer to RRM and the Client.
                         </p>
 
-                        <h3 className="text-xl font-bold py-4">Article 1: Purpose</h3>
+                        <h3 id="article-1" className="text-xl font-bold py-4">Article 1: Purpose</h3>
                         <p className="py-2">
                             These Terms and Conditions define:
                         </p>
@@ -67,17 +67,17 @@ export default function TermsOfUse() {
                             <li>Respective rights and obligations of the Client and TransitLoop in using the Application.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">Article 2: Modification</h3>
+                        <h3 id="article-2" className="text-xl font-bold py-4">Article 2: Modification</h3>
                         <p className="py-2">
                             These Terms and Conditions may be modified by TransitLoop in case of regulatory, technical, or commercial evolution. The Client will be informed by any appropriate means. The absence of objection within 30 days following the information constitutes acceptance.
                         </p>
 
-                        <h3 className="text-xl font-bold py-4">Article 3: Duration and Entry into Force</h3>
+                        <h3 id="article-3" className="text-xl font-bold py-4">Article 3: Duration and Entry into Force</h3>
                         <p className="py-2">
                             The Contract takes effect from the opening of the Client Account and acceptance of these Terms and Conditions, and remains valid until its closure by the Client or TransitLoop.
                         </p>
 
-                        <h3 className="text-xl font-bold py-4">Article 4: Account Opening and Activation</h3>
+                        <h3 id="article-4" className="text-xl font-bold py-4">Article 4: Account Opening and Activation</h3>
                         <ul className="list-disc ml-4 p-4">
                             <li>Account opening is free.</li>
                             <li>It is reserved for natural persons with a smartphone and internet connection.</li>
@@ -86,7 +86,7 @@ export default function TermsOfUse() {
                             <li>TransitLoop may suspend an Account in case of fraud, false declaration, or upon request from authorities.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">Article 5: Account Operation and Services</h3>
+                        <h3 id="article-5" className="text-xl font-bold py-4">Article 5: Account Operation and Services</h3>
                         <p className="py-2">The Client Account allows:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>Route planning combining Rabat-Salé Tramway, Rabat Buses, Motorcycles, and RRM Parking.</li>
@@ -98,7 +98,7 @@ export default function TermsOfUse() {
                             The Application provides only planning information and does not allow the purchase, reservation, or validation of transport tickets.
                         </p>
 
-                        <h3 className="text-xl font-bold py-4">Article 6: Security and Confidentiality</h3>
+                        <h3 id="article-6" className="text-xl font-bold py-4">Article 6: Security and Confidentiality</h3>
                         <ul className="list-disc ml-4 p-4">
                             <li>Account access is protected by a temporary code sent via SMS or WhatsApp to the user's phone number.</li>
                             <li>The Client is responsible for the confidentiality of their credentials.</li>
@@ -106,26 +106,26 @@ export default function TermsOfUse() {
                             <li>After 3 consecutive failures, Account access is blocked.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">Article 7: Account Closure</h3>
+                        <h3 id="article-7" className="text-xl font-bold py-4">Article 7: Account Closure</h3>
                         <p className="py-2">The Account may be closed:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li><strong>By the Client</strong>: at any time, without fees. Personal data will be deleted in accordance with applicable regulations.</li>
                             <li><strong>By TransitLoop</strong>: in case of death, fraud, false declaration, request from an authority, 12 months of inactivity, or violation of these Terms and Conditions.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">Article 8: Fare Information</h3>
+                        <h3 id="article-8" className="text-xl font-bold py-4">Article 8: Fare Information</h3>
                         <ul className="list-disc ml-4 p-4">
                             <li>The Application displays fares for different transport modes for informational purposes only.</li>
                             <li>Displayed fares may vary and are not contractual.</li>
                             <li>The Client must inquire with transport operators for official fares and ticket purchases.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">Article 9: Personal Data Protection</h3>
+                        <h3 id="article-9" className="text-xl font-bold py-4">Article 9: Personal Data Protection</h3>
                         <p className="py-2">
                             In accordance with Article 5 of Moroccan law n°09-08 relating to the protection of natural persons with regard to the processing of personal data, users are informed of the following characteristics of the processing of their data:
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.1. Data Controller</h4>
+                        <h4 id="article-9-1" className="text-lg font-semibold py-2">9.1. Data Controller</h4>
                         <p className="py-2">
                             <strong>TransitLoop</strong><br />
                             Registered office: 310, rue Omar Riffi, 20250 Casablanca, Morocco<br />
@@ -137,7 +137,7 @@ export default function TermsOfUse() {
                             Trade register: Rabat n° 75799
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.2. Processing Purposes</h4>
+                        <h4 id="article-9-2" className="text-lg font-semibold py-2">9.2. Processing Purposes</h4>
                         <ul className="list-disc ml-4 p-4">
                             <li>Provision of multimodal route planning services</li>
                             <li>Calculation and comparison of routes (tramway, bus, motorcycle, parking)</li>
@@ -146,7 +146,7 @@ export default function TermsOfUse() {
                             <li>Compliance with legal and regulatory obligations</li>
                         </ul>
 
-                        <h4 className="text-lg font-semibold py-2">9.3. Data Collected</h4>
+                        <h4 id="article-9-3" className="text-lg font-semibold py-2">9.3. Data Collected</h4>
                         <ul className="list-disc ml-4 p-4">
                             <li><strong>Mandatory data:</strong> Phone number</li>
                             <li><strong>Optional data:</strong> Name, surname (for profile personalization)</li>
@@ -154,12 +154,12 @@ export default function TermsOfUse() {
                             <li><strong>Usage data:</strong> Route search history, transport preferences</li>
                         </ul>
 
-                        <h4 className="text-lg font-semibold py-2">9.4. Legal Basis for Processing</h4>
+                        <h4 id="article-9-4" className="text-lg font-semibold py-2">9.4. Legal Basis for Processing</h4>
                         <p className="py-2">
                             Processing is based on TransitLoop's legitimate interest in providing route planning services and on user consent for optional data.
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.5. Data Recipients</h4>
+                        <h4 id="article-9-5" className="text-lg font-semibold py-2">9.5. Data Recipients</h4>
                         <ul className="list-disc ml-4 p-4">
                             <li>TransitLoop (data controller)</li>
                             <li>Rabat Region Mobility (RRM) - partner for route planning services</li>
@@ -169,12 +169,12 @@ export default function TermsOfUse() {
                             <strong>Note:</strong> Transport partners (tramway, bus, motorcycle, parking operators) do not receive personal data. Only anonymized route information is used for planning purposes.
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.6. Retention Period</h4>
+                        <h4 id="article-9-6" className="text-lg font-semibold py-2">9.6. Retention Period</h4>
                         <p className="py-2">
                             Personal data is retained for the duration of user account usage and up to 3 years after account closure, unless there is a contrary legal obligation.
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.7. User Rights</h4>
+                        <h4 id="article-9-7" className="text-lg font-semibold py-2">9.7. User Rights</h4>
                         <p className="py-2">
                             In accordance with law 09-08, you have the following rights:
                         </p>
@@ -186,25 +186,25 @@ export default function TermsOfUse() {
                             <li><strong>Right of portability:</strong> retrieve your data in a structured format</li>
                         </ul>
 
-                        <h4 className="text-lg font-semibold py-2">9.8. Exercising Rights</h4>
+                        <h4 id="article-9-8" className="text-lg font-semibold py-2">9.8. Exercising Rights</h4>
                         <p className="py-2">
                             To exercise your rights, contact us:<br />
                             <strong>Email:</strong> contact@transitloop.io<br />
                             <strong>Mail:</strong> TransitLoop – 310, rue Omar Riffi, 20250 Casablanca, Morocco
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.9. CNDP Declaration</h4>
+                        <h4 id="article-9-9" className="text-lg font-semibold py-2">9.9. CNDP Declaration</h4>
                         <p className="py-2">
                             This processing has been subject to a declaration / authorization request to the CNDP under number ………… The collected personal data may be transmitted to TransitLoop and to Rabat Region Mobility in accordance with the transfer request filed with the CNDP.
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.10. Complaints</h4>
+                        <h4 id="article-9-10" className="text-lg font-semibold py-2">9.10. Complaints</h4>
                         <p className="py-2">
                             You have the right to file a complaint with the CNDP if you believe your rights are not being respected.
                         </p>
 
 
-                        <h3 className="text-xl font-bold py-4">Article 10: Client Commitments</h3>
+                        <h3 id="article-10" className="text-xl font-bold py-4">Article 10: Client Commitments</h3>
                         <p className="py-2">The Client undertakes to:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>Provide accurate and up-to-date information,</li>
@@ -212,7 +212,7 @@ export default function TermsOfUse() {
                             <li>Not divert the Application for fraudulent or unauthorized commercial purposes.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">Article 11: TransitLoop Responsibilities</h3>
+                        <h3 id="article-11" className="text-xl font-bold py-4">Article 11: TransitLoop Responsibilities</h3>
                         <p className="py-2">TransitLoop undertakes to:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>Provide route planning information within technical constraints,</li>
@@ -227,13 +227,13 @@ export default function TermsOfUse() {
                             <li>Force majeure cases.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">Article 12: Complaints</h3>
+                        <h3 id="article-12" className="text-xl font-bold py-4">Article 12: Complaints</h3>
                         <p className="py-2">The Client may address any complaint:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>By mail: Rabat Region Mobility – 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">Article 13: Applicable Law and Disputes</h3>
+                        <h3 id="article-13" className="text-xl font-bold py-4">Article 13: Applicable Law and Disputes</h3>
                         <ul className="list-disc ml-4 p-4">
                             <li>These Terms and Conditions are governed by Moroccan law.</li>
                             <li>In case of dispute, the Parties will attempt an amicable resolution. Failing that, the competent courts are those of Rabat.</li>

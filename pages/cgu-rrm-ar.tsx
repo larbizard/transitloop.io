@@ -21,14 +21,14 @@ export default function TermsOfUse() {
             <div className="pt-20">
                 <div className="flex flex-row justify-center">
                     <div className="p-8 lg:px-20">
-                        <h1 className="text-2xl font-bold text-right mb-6">
+                        <h1 id="titre-principal" className="text-2xl font-bold text-right mb-6">
                             الشروط العامة للاستخدام
                         </h1>
-                        <h2 className="text-xl font-bold py-4 text-right">
+                        <h2 id="sous-titre" className="text-xl font-bold py-4 text-right">
                             لتطبيق MaaS الرباط الجهة للتنقل
                         </h2>
 
-                        <h3 className="text-xl font-bold py-4">التعاريف</h3>
+                        <h3 id="definitions" className="text-xl font-bold py-4">التعاريف</h3>
                         <p className="py-2">
                             <strong>« تطبيق MaaS الرباط الجهة للتنقل » و/أو « التطبيق »</strong> : التطبيق المحمول الذي يتيح للعميل الوصول إلى خدمات التخطيط وحساب المسارات لوسائل النقل التي تشغل و/أو تديرها الرباط الجهة للتنقل (ر.ج.ت)، وهي: ترامواي الرباط-سلا، حافلات الرباط، الدراجات النارية، ومواقف السيارات التي تديرها ر.ج.ت.
                         </p>
@@ -57,7 +57,7 @@ export default function TermsOfUse() {
                             <strong>« الأطراف »</strong> : تشير مجتمعة إلى ر.ج.ت والعميل.
                         </p>
 
-                        <h3 className="text-xl font-bold py-4">المادة 1: الموضوع</h3>
+                        <h3 id="article-1" className="text-xl font-bold py-4">المادة 1: الموضوع</h3>
                         <p className="py-2">
                             تحدد هذه الشروط العامة:
                         </p>
@@ -67,17 +67,17 @@ export default function TermsOfUse() {
                             <li>الحقوق والالتزامات المتبادلة للعميل وترانزيت لوب في استخدام التطبيق.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">المادة 2: التعديل</h3>
+                        <h3 id="article-2" className="text-xl font-bold py-4">المادة 2: التعديل</h3>
                         <p className="py-2">
                             يمكن تعديل هذه الشروط من قبل ترانزيت لوب في حالة التطور التنظيمي أو التقني أو التجاري. سيتم إعلام العميل بأي وسيلة مناسبة. عدم الاعتراض خلال 30 يوماً من الإعلام يعتبر قبولاً.
                         </p>
 
-                        <h3 className="text-xl font-bold py-4">المادة 3: المدة وسريان النفاذ</h3>
+                        <h3 id="article-3" className="text-xl font-bold py-4">المادة 3: المدة وسريان النفاذ</h3>
                         <p className="py-2">
                             يدخل العقد حيز التنفيذ من تاريخ فتح حساب العميل وقبول هذه الشروط، ويبقى ساري المفعول حتى إغلاقه من قبل العميل أو ترانزيت لوب.
                         </p>
 
-                        <h3 className="text-xl font-bold py-4">المادة 4: فتح وتفعيل الحساب</h3>
+                        <h3 id="article-4" className="text-xl font-bold py-4">المادة 4: فتح وتفعيل الحساب</h3>
                         <ul className="list-disc ml-4 p-4">
                             <li>فتح الحساب مجاني.</li>
                             <li>مخصص للأشخاص الطبيعيين الذين يملكون هاتفاً ذكياً واتصالاً بالإنترنت.</li>
@@ -86,7 +86,7 @@ export default function TermsOfUse() {
                             <li>يمكن لترانزيت لوب تعليق الحساب في حالة الاحتيال أو الإدلاء بمعلومات كاذبة أو بناءً على طلب السلطات.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">المادة 5: عمل الحساب والخدمات</h3>
+                        <h3 id="article-5" className="text-xl font-bold py-4">المادة 5: عمل الحساب والخدمات</h3>
                         <p className="py-2">يتيح حساب العميل:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>تخطيط المسارات التي تجمع ترامواي الرباط-سلا، حافلات الرباط، الدراجات النارية ومواقف ر.ج.ت.</li>
@@ -98,7 +98,7 @@ export default function TermsOfUse() {
                             يوفر التطبيق معلومات التخطيط فقط ولا يتيح شراء أو حجز أو التحقق من تذاكر النقل.
                         </p>
 
-                        <h3 className="text-xl font-bold py-4">المادة 6: الأمان والسرية</h3>
+                        <h3 id="article-6" className="text-xl font-bold py-4">المادة 6: الأمان والسرية</h3>
                         <ul className="list-disc ml-4 p-4">
                             <li>الوصول إلى الحساب محمي برمز مؤقت يتم إرساله عبر الرسائل القصيرة أو واتساب على رقم هاتف المستخدم.</li>
                             <li>العميل مسؤول عن سرية بياناته.</li>
@@ -106,26 +106,26 @@ export default function TermsOfUse() {
                             <li>بعد 3 محاولات متتالية فاشلة، يتم حظر الوصول إلى الحساب.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">المادة 7: إغلاق الحساب</h3>
+                        <h3 id="article-7" className="text-xl font-bold py-4">المادة 7: إغلاق الحساب</h3>
                         <p className="py-2">يمكن إغلاق الحساب:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li><strong>من قبل العميل</strong> : في أي وقت، بدون رسوم. ستتم إزالة البيانات الشخصية وفقاً للوائح المعمول بها.</li>
                             <li><strong>من قبل ترانزيت لوب</strong> : في حالة الوفاة، الاحتيال، الإدلاء بمعلومات كاذبة، طلب من سلطة، عدم نشاط لمدة 12 شهراً، أو انتهاك هذه الشروط.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">المادة 8: المعلومات التعريفية</h3>
+                        <h3 id="article-8" className="text-xl font-bold py-4">المادة 8: المعلومات التعريفية</h3>
                         <ul className="list-disc ml-4 p-4">
                             <li>يعرض التطبيق أسعار وسائل النقل المختلفة لأغراض إعلامية فقط.</li>
                             <li>الأسعار المعروضة قد تختلف وليست تعاقدية.</li>
                             <li>يجب على العميل الاستفسار من مشغلي النقل للحصول على الأسعار الرسمية وشراء التذاكر.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">المادة 9: حماية البيانات الشخصية</h3>
+                        <h3 id="article-9" className="text-xl font-bold py-4">المادة 9: حماية البيانات الشخصية</h3>
                         <p className="py-2">
                             وفقاً للمادة 5 من القانون المغربي رقم 09-08 المتعلق بحماية الأشخاص الطبيعيين فيما يتعلق بمعالجة البيانات ذات الطابع الشخصي، يتم إعلام المستخدمين بالخصائص التالية لمعالجة بياناتهم:
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.1. مسؤول المعالجة</h4>
+                        <h4 id="article-9-1" className="text-lg font-semibold py-2">9.1. مسؤول المعالجة</h4>
                         <p className="py-2">
                             <strong>ترانزيت لوب</strong><br />
                             المقر الاجتماعي: 310، شارع عمر الرفيعي، 20250 الدار البيضاء، المغرب<br />
@@ -137,7 +137,7 @@ export default function TermsOfUse() {
                             السجل التجاري: الرباط رقم 75799
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.2. أغراض المعالجة</h4>
+                        <h4 id="article-9-2" className="text-lg font-semibold py-2">9.2. أغراض المعالجة</h4>
                         <ul className="list-disc ml-4 p-4">
                             <li>تقديم خدمات تخطيط المسارات متعددة الوسائط</li>
                             <li>حساب ومقارنة المسارات (الترامواي، الحافلات، الدراجات النارية، مواقف السيارات)</li>
@@ -146,7 +146,7 @@ export default function TermsOfUse() {
                             <li>احترام الالتزامات القانونية والتنظيمية</li>
                         </ul>
 
-                        <h4 className="text-lg font-semibold py-2">9.3. البيانات المجمعة</h4>
+                        <h4 id="article-9-3" className="text-lg font-semibold py-2">9.3. البيانات المجمعة</h4>
                         <ul className="list-disc ml-4 p-4">
                             <li><strong>البيانات الإجبارية:</strong> رقم الهاتف</li>
                             <li><strong>البيانات الاختيارية:</strong> الاسم، اللقب (لتخصيص الملف الشخصي)</li>
@@ -154,12 +154,12 @@ export default function TermsOfUse() {
                             <li><strong>بيانات الاستخدام:</strong> تاريخ البحث عن المسارات، تفضيلات النقل</li>
                         </ul>
 
-                        <h4 className="text-lg font-semibold py-2">9.4. الأساس القانوني للمعالجة</h4>
+                        <h4 id="article-9-4" className="text-lg font-semibold py-2">9.4. الأساس القانوني للمعالجة</h4>
                         <p className="py-2">
                             تستند المعالجة على المصلحة المشروعة لترانزيت لوب في تقديم خدمات تخطيط المسارات وعلى موافقة المستخدم للبيانات الاختيارية.
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.5. مستلمو البيانات</h4>
+                        <h4 id="article-9-5" className="text-lg font-semibold py-2">9.5. مستلمو البيانات</h4>
                         <ul className="list-disc ml-4 p-4">
                             <li>ترانزيت لوب (مسؤول المعالجة)</li>
                             <li>الرباط الجهة للتنقل (ر.ج.ت) - شريك لخدمات تخطيط المسارات</li>
@@ -169,12 +169,12 @@ export default function TermsOfUse() {
                             <strong>ملاحظة:</strong> شركاء النقل (مشغلي الترامواي، الحافلات، الدراجات النارية، مواقف السيارات) لا يتلقون بيانات شخصية. يتم استخدام معلومات مجهولة الهوية حول المسارات فقط للتخطيط.
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.6. مدة الحفظ</h4>
+                        <h4 id="article-9-6" className="text-lg font-semibold py-2">9.6. مدة الحفظ</h4>
                         <p className="py-2">
                             يتم حفظ البيانات الشخصية طوال مدة استخدام حساب المستخدم ولمدة 3 سنوات بعد إغلاق الحساب، ما لم تكن هناك التزام قانوني مخالف.
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.7. حقوق المستخدمين</h4>
+                        <h4 id="article-9-7" className="text-lg font-semibold py-2">9.7. حقوق المستخدمين</h4>
                         <p className="py-2">
                             وفقاً للقانون 09-08، لديكم الحقوق التالية:
                         </p>
@@ -186,25 +186,25 @@ export default function TermsOfUse() {
                             <li><strong>حق قابلية النقل:</strong> استرداد بياناتكم في تنسيق منظم</li>
                         </ul>
 
-                        <h4 className="text-lg font-semibold py-2">9.8. ممارسة الحقوق</h4>
+                        <h4 id="article-9-8" className="text-lg font-semibold py-2">9.8. ممارسة الحقوق</h4>
                         <p className="py-2">
                             لممارسة حقوقكم، اتصلوا بنا:<br />
                             <strong>البريد الإلكتروني:</strong> contact@transitloop.io<br />
                             <strong>البريد:</strong> ترانزيت لوب – 310، شارع عمر الرفيعي، 20250 الدار البيضاء، المغرب
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.9. إعلان الهيئة الوطنية لحماية المعطيات الشخصية</h4>
+                        <h4 id="article-9-9" className="text-lg font-semibold py-2">9.9. إعلان الهيئة الوطنية لحماية المعطيات الشخصية</h4>
                         <p className="py-2">
                             هذا المعالجة موضوع إعلان / طلب ترخيص لدى الهيئة الوطنية لحماية المعطيات الشخصية تحت الرقم ………… يمكن نقل البيانات الشخصية المجمعة إلى ترانزيت لوب وإلى الرباط الجهة للتنقل وفقاً لطلب النقل المودع لدى الهيئة الوطنية لحماية المعطيات الشخصية.
                         </p>
 
-                        <h4 className="text-lg font-semibold py-2">9.10. الشكايات</h4>
+                        <h4 id="article-9-10" className="text-lg font-semibold py-2">9.10. الشكايات</h4>
                         <p className="py-2">
                             لديكم الحق في تقديم شكاية لدى الهيئة الوطنية لحماية المعطيات الشخصية إذا اعتقدتم أن حقوقكم لا يتم احترامها.
                         </p>
 
 
-                        <h3 className="text-xl font-bold py-4">المادة 10: التزامات العميل</h3>
+                        <h3 id="article-10" className="text-xl font-bold py-4">المادة 10: التزامات العميل</h3>
                         <p className="py-2">يتعهد العميل بـ:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>تقديم معلومات دقيقة ومحدثة،</li>
@@ -212,7 +212,7 @@ export default function TermsOfUse() {
                             <li>عدم تحويل التطبيق لأغراض احتيالية أو تجارية غير مصرح بها.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">المادة 11: مسؤوليات ترانزيت لوب</h3>
+                        <h3 id="article-11" className="text-xl font-bold py-4">المادة 11: مسؤوليات ترانزيت لوب</h3>
                         <p className="py-2">تتعهد ترانزيت لوب بـ:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>ضمان توفر خدمات معلومات التخطيط في حدود القيود التقنية،</li>
@@ -227,13 +227,13 @@ export default function TermsOfUse() {
                             <li>حالات القوة القاهرة.</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">المادة 12: الشكاوى</h3>
+                        <h3 id="article-12" className="text-xl font-bold py-4">المادة 12: الشكاوى</h3>
                         <p className="py-2">يمكن للعميل تقديم أي شكوى:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>بالبريد: الرباط الجهة للتنقل – 1 زنقة قفصة، ساحة الجولان، الرباط، المغرب</li>
                         </ul>
 
-                        <h3 className="text-xl font-bold py-4">المادة 13: القانون المطبق والمنازعات</h3>
+                        <h3 id="article-13" className="text-xl font-bold py-4">المادة 13: القانون المطبق والمنازعات</h3>
                         <ul className="list-disc ml-4 p-4">
                             <li>تحكم هذه الشروط القانون المغربي.</li>
                             <li>في حالة النزاع، ستحاول الأطراف الوصول إلى حل ودي. في حالة عدم النجاح، المحاكم المختصة هي محاكم الرباط.</li>
