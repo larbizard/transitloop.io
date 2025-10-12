@@ -124,15 +124,18 @@ export default function TermsOfUse() {
                         <p className="py-2">
                             In accordance with Article 5 of Moroccan law n°09-08 relating to the protection of natural persons with regard to the processing of personal data, users are informed of the following characteristics of the processing of their data:
                         </p>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.1. Data Controller</h4>
                         <p className="py-2">
-                            <strong>Rabat Region Mobility (RRM)</strong><br/>
-                            Registered office: 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco<br/>
-                            Trade register: Rabat n° 75799<br/>
-                            Contact: [official RRM email address]
+                            <strong>TransitLoop</strong><br />
+                            Registered office: [TransitLoop address]<br />
+                            Contact: contact@transitloop.io<br />
+                            <br />
+                            <strong>Rabat Region Mobility (RRM)</strong> - Partner<br />
+                            Registered office: 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco<br />
+                            Trade register: Rabat n° 75799
                         </p>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.2. Processing Purposes</h4>
                         <ul className="list-disc ml-4 p-4">
                             <li>Provision of multimodal route planning services</li>
@@ -141,7 +144,7 @@ export default function TermsOfUse() {
                             <li>Improvement of public transport services</li>
                             <li>Compliance with legal and regulatory obligations</li>
                         </ul>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.3. Data Collected</h4>
                         <ul className="list-disc ml-4 p-4">
                             <li><strong>Mandatory data:</strong> Phone number</li>
@@ -149,25 +152,25 @@ export default function TermsOfUse() {
                             <li><strong>Technical data:</strong> IP address, cookies, geolocation data (if authorized)</li>
                             <li><strong>Usage data:</strong> Route search history, transport preferences</li>
                         </ul>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.4. Legal Basis for Processing</h4>
                         <p className="py-2">
-                            Processing is based on RRM's legitimate interest in providing route planning services and on user consent for optional data.
+                            Processing is based on TransitLoop's legitimate interest in providing route planning services and on user consent for optional data.
                         </p>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.5. Data Recipients</h4>
                         <ul className="list-disc ml-4 p-4">
-                            <li>Rabat Region Mobility (RRM)</li>
-                            <li>TransitLoop (technical subcontractor)</li>
+                            <li>TransitLoop (data controller)</li>
+                            <li>Rabat Region Mobility (RRM) - partner for route planning services</li>
                             <li>Transport partners (tramway, bus, motorcycle, parking operators) - only for route planning</li>
                             <li>Competent authorities (upon legal request)</li>
                         </ul>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.6. Retention Period</h4>
                         <p className="py-2">
                             Personal data is retained for the duration of user account usage and up to 3 years after account closure, unless there is a contrary legal obligation.
                         </p>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.7. User Rights</h4>
                         <p className="py-2">
                             In accordance with law 09-08, you have the following rights:
@@ -179,19 +182,19 @@ export default function TermsOfUse() {
                             <li><strong>Right of erasure:</strong> request deletion of your data</li>
                             <li><strong>Right of portability:</strong> retrieve your data in a structured format</li>
                         </ul>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.8. Exercising Rights</h4>
                         <p className="py-2">
-                            To exercise your rights, contact us:<br/>
-                            <strong>Email:</strong> contact@transitloop.io<br/>
+                            To exercise your rights, contact us:<br />
+                            <strong>Email:</strong> contact@transitloop.io<br />
                             <strong>Mail:</strong> Rabat Region Mobility – 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco
                         </p>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.9. CNDP Declaration</h4>
                         <p className="py-2">
                             This processing has been subject to a declaration / authorization request to the CNDP under number ………… The collected personal data may be transmitted to TransitLoop and to Rabat Region Mobility in accordance with the transfer request filed with the CNDP.
                         </p>
-                        
+
                         <h4 className="text-lg font-semibold py-2">9.10. Complaints</h4>
                         <p className="py-2">
                             You have the right to file a complaint with the CNDP if you believe your rights are not being respected.

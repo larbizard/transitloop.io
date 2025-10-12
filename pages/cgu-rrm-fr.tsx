@@ -125,15 +125,18 @@ export default function TermsOfUse() {
             <p className="py-2">
               Conformément à l'article 5 de la loi marocaine n°09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel, les utilisateurs sont informés des caractéristiques suivantes du traitement de leurs données :
             </p>
-            
+
             <h4 className="text-lg font-semibold py-2">9.1. Responsable du traitement</h4>
             <p className="py-2">
-              <strong>Rabat Région Mobilité (RRM)</strong><br/>
-              Siège social : 1 Rue Ghafsa, Place Al Joulane, Rabat, Maroc<br/>
-              Registre de commerce : Rabat n° 75799<br/>
-              Contact : [adresse e-mail officielle RRM]
+              <strong>TransitLoop</strong><br />
+              Siège social : [adresse TransitLoop]<br />
+              Contact : contact@transitloop.io<br />
+              <br />
+              <strong>Rabat Région Mobilité (RRM)</strong> - Partenaire<br />
+              Siège social : 1 Rue Ghafsa, Place Al Joulane, Rabat, Maroc<br />
+              Registre de commerce : Rabat n° 75799
             </p>
-            
+
             <h4 className="text-lg font-semibold py-2">9.2. Finalités du traitement</h4>
             <ul className="list-disc ml-4 p-4">
               <li>Fourniture des services de planification d'itinéraires multimodaux</li>
@@ -142,7 +145,7 @@ export default function TermsOfUse() {
               <li>Amélioration des services de transport public</li>
               <li>Respect des obligations légales et réglementaires</li>
             </ul>
-            
+
             <h4 className="text-lg font-semibold py-2">9.3. Données collectées</h4>
             <ul className="list-disc ml-4 p-4">
               <li><strong>Données obligatoires :</strong> Numéro de téléphone</li>
@@ -150,25 +153,25 @@ export default function TermsOfUse() {
               <li><strong>Données techniques :</strong> Adresse IP, cookies, données de géolocalisation (si autorisées)</li>
               <li><strong>Données d'usage :</strong> Historique des recherches d'itinéraires, préférences de transport</li>
             </ul>
-            
+
             <h4 className="text-lg font-semibold py-2">9.4. Base légale du traitement</h4>
             <p className="py-2">
-              Le traitement est fondé sur l'intérêt légitime de RRM à fournir des services de planification d'itinéraires et sur le consentement de l'utilisateur pour les données optionnelles.
+              Le traitement est fondé sur l'intérêt légitime de TransitLoop à fournir des services de planification d'itinéraires et sur le consentement de l'utilisateur pour les données optionnelles.
             </p>
-            
+
             <h4 className="text-lg font-semibold py-2">9.5. Destinataires des données</h4>
             <ul className="list-disc ml-4 p-4">
-              <li>Rabat Région Mobilité (RRM)</li>
-              <li>TransitLoop (sous-traitant technique)</li>
+              <li>TransitLoop (responsable du traitement)</li>
+              <li>Rabat Région Mobilité (RRM) - partenaire pour les services de planification</li>
               <li>Partenaires de transport (opérateurs de tramway, bus, vélo-taxi, parkings) - uniquement pour la planification d'itinéraires</li>
               <li>Autorités compétentes (sur demande légale)</li>
             </ul>
-            
+
             <h4 className="text-lg font-semibold py-2">9.6. Durée de conservation</h4>
             <p className="py-2">
               Les données personnelles sont conservées pendant la durée d'utilisation du compte utilisateur et jusqu'à 3 ans après la clôture du compte, sauf obligation légale contraire.
             </p>
-            
+
             <h4 className="text-lg font-semibold py-2">9.7. Droits des utilisateurs</h4>
             <p className="py-2">
               Conformément à la loi 09-08, vous disposez des droits suivants :
@@ -180,19 +183,19 @@ export default function TermsOfUse() {
               <li><strong>Droit de suppression :</strong> demander l'effacement de vos données</li>
               <li><strong>Droit de portabilité :</strong> récupérer vos données dans un format structuré</li>
             </ul>
-            
+
             <h4 className="text-lg font-semibold py-2">9.8. Exercice des droits</h4>
             <p className="py-2">
-              Pour exercer vos droits, contactez-nous :<br/>
-              <strong>E-mail :</strong> contact@transitloop.io<br/>
+              Pour exercer vos droits, contactez-nous :<br />
+              <strong>E-mail :</strong> contact@transitloop.io<br />
               <strong>Courrier :</strong> Rabat Région Mobilité – 1 Rue Ghafsa, Place Al Joulane, Rabat, Maroc
             </p>
-            
+
             <h4 className="text-lg font-semibold py-2">9.9. Déclaration CNDP</h4>
             <p className="py-2">
               Ce traitement a fait l'objet d'une déclaration / demande d'autorisation auprès de la CNDP sous le numéro ………… Les données personnelles collectées peuvent être transmises à TransitLoop et à Rabat Région Mobilité conformément à la demande de transfert déposée auprès de la CNDP.
             </p>
-            
+
             <h4 className="text-lg font-semibold py-2">9.10. Réclamations</h4>
             <p className="py-2">
               Vous avez le droit d'introduire une réclamation auprès de la CNDP si vous estimez que vos droits ne sont pas respectés.
