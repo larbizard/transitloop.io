@@ -11,16 +11,14 @@ const DownloadApp = () => {
     return (
       <div {...props}>
         <h1
-          className={`text-2xl xl:text-4xl text-black font-black  ${
-            i18n.language === "ar" ? "text-right" : ""
-          }`}
+          className={`text-2xl xl:text-4xl text-black font-black  ${i18n.language === "ar" ? "text-right" : ""
+            }`}
         >
           {t("Welcome_message")}
         </h1>
         <div
-          className={`flex flex-col xl:flex-row ${
-            i18n.language === "ar" ? "justify-end" : "justify-start"
-          } py-4`}
+          className={`flex flex-col xl:flex-row ${i18n.language === "ar" ? "justify-end" : "justify-start"
+            } py-4`}
         >
           <Link
             className="pr-2"
@@ -57,7 +55,7 @@ const DownloadApp = () => {
       <div className="flex flex-col justify-center bg-white pt-10">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 py-20 lg:text-center">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-black sm:text-5xl lg:text-balance">
-            Notre application en marque grise est déployée dans plusieurs villes du Maroc sous le nom de <a href="https://mdinamapper.com" className="underline">MdinaMapper</a>
+            Notre application en marque blanche est déployée dans plusieurs villes du Maroc sous le nom de <a href="https://mdinamapper.com" className="underline">MdinaMapper</a>
           </p>
         </div>
       </div>

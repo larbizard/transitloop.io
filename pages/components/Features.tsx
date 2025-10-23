@@ -52,7 +52,7 @@ const amoFeatures = {
 };
 
 const appFeatures = {
-  title: "Application en Marque grise",
+  title: "Application en Marque blanche",
   features: [
     {
       name: "Planification d’itinéraires, mobilité multimodale, alertes en temps réel",
@@ -75,7 +75,7 @@ const appFeatures = {
     {
       name: "Personnalisation et déploiement",
       description:
-        "Nous déployons l'application en marque grise aux couleurs de votre collectivité. ",
+        "Nous déployons l'application en marque blanche aux couleurs de votre collectivité. ",
       icon: EyeDropperIcon,
     },
   ],
