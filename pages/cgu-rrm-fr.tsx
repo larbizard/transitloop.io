@@ -70,12 +70,12 @@ export default function TermsOfUse() {
 
             <h3 id="article-2" className="text-xl font-bold py-4">Article 2 : Modification</h3>
             <p className="py-2">
-              Les CGU peuvent être modifiées par TransitLoop en cas d'évolution réglementaire, technique ou commerciale. Le Client sera informé par tout moyen approprié. L'absence de contestation dans les 30 jours suivant l'information vaut acceptation.
+              Les CGU peuvent être modifiées par Rabat Région Mobilité en cas d'évolution réglementaire, technique ou commerciale. Le Client sera informé par tout moyen approprié. L'absence de contestation dans les 30 jours suivant l'information vaut acceptation.
             </p>
 
             <h3 id="article-3" className="text-xl font-bold py-4">Article 3 : Durée et Entrée en vigueur</h3>
             <p className="py-2">
-              Le Contrat prend effet à compter de l'ouverture du Compte Client et de l'acceptation des CGU, et reste valable jusqu'à sa clôture par le Client ou par TransitLoop.
+              Le Contrat prend effet à compter de l'ouverture du Compte Client et de l'acceptation des CGU, et reste valable jusqu'à sa clôture par le Client ou par Rabat Région Mobilité.
             </p>
 
             <h3 id="article-4" className="text-xl font-bold py-4">Article 4 : Ouverture et Activation du Compte</h3>
@@ -84,7 +84,7 @@ export default function TermsOfUse() {
               <li>Elle est réservée aux personnes physiques disposant d'un smartphone et d'une connexion internet.</li>
               <li>L'inscription nécessite uniquement la fourniture du numéro de téléphone.</li>
               <li>Le nom et prénom sont optionnels et peuvent être ajoutés par l'utilisateur dans son profil après inscription pour personnaliser son expérience.</li>
-              <li>TransitLoop peut suspendre un Compte en cas de fraude, fausse déclaration ou sur demande des autorités.</li>
+              <li>Rabat Région Mobilité peut suspendre un Compte en cas de fraude, fausse déclaration ou sur demande des autorités.</li>
             </ul>
 
             <h3 id="article-5" className="text-xl font-bold py-4">Article 5 : Fonctionnement du Compte et Services</h3>
@@ -111,7 +111,7 @@ export default function TermsOfUse() {
             <p className="py-2">Le Compte peut être clôturé :</p>
             <ul className="list-disc ml-4 p-4">
               <li><strong>Par le Client</strong> : à tout moment, sans frais. Les données personnelles seront supprimées conformément à la réglementation en vigueur.</li>
-              <li><strong>Par TransitLoop</strong> : en cas de décès, fraude, fausse déclaration, demande d'une autorité, inactivité de 12 mois, ou violation des CGU.</li>
+              <li><strong>Par Rabat Région Mobilité</strong> : en cas de décès, fraude, fausse déclaration, demande d'une autorité, inactivité de 12 mois, ou violation des CGU.</li>
             </ul>
 
             <h3 id="article-8" className="text-xl font-bold py-4">Article 8 : Informations Tarifaires</h3>
@@ -213,14 +213,14 @@ export default function TermsOfUse() {
               <li>Ne pas détourner l'Application à des fins frauduleuses ou commerciales non autorisées.</li>
             </ul>
 
-            <h3 id="article-11" className="text-xl font-bold py-4">Article 11 : Responsabilités de TransitLoop</h3>
-            <p className="py-2">TransitLoop s'engage à :</p>
+            <h3 id="article-11" className="text-xl font-bold py-4">Article 11 : Responsabilités de Rabat Région Mobilité</h3>
+            <p className="py-2">Rabat Région Mobilité s'engage à :</p>
             <ul className="list-disc ml-4 p-4">
               <li>Fournir des informations de planification d'itinéraires dans la limite des contraintes techniques,</li>
               <li>Assurer la conformité réglementaire de ses prestations d'information,</li>
               <li>Informer le Client en cas d'interruption technique des services de planification.</li>
             </ul>
-            <p className="py-2">TransitLoop n'est pas responsable :</p>
+            <p className="py-2">Rabat Région Mobilité n'est pas responsable :</p>
             <ul className="list-disc ml-4 p-4">
               <li>De l'exactitude des informations fournies par les opérateurs de transport,</li>
               <li>Des pannes liées au smartphone ou réseau mobile du Client,</li>

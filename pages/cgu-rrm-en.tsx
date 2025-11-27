@@ -69,12 +69,12 @@ export default function TermsOfUse() {
 
                         <h3 id="article-2" className="text-xl font-bold py-4">Article 2: Modification</h3>
                         <p className="py-2">
-                            These Terms and Conditions may be modified by TransitLoop in case of regulatory, technical, or commercial evolution. The Client will be informed by any appropriate means. The absence of objection within 30 days following the information constitutes acceptance.
+                            These Terms and Conditions may be modified by Rabat Region Mobility in case of regulatory, technical, or commercial evolution. The Client will be informed by any appropriate means. The absence of objection within 30 days following the information constitutes acceptance.
                         </p>
 
                         <h3 id="article-3" className="text-xl font-bold py-4">Article 3: Duration and Entry into Force</h3>
                         <p className="py-2">
-                            The Contract takes effect from the opening of the Client Account and acceptance of these Terms and Conditions, and remains valid until its closure by the Client or TransitLoop.
+                            The Contract takes effect from the opening of the Client Account and acceptance of these Terms and Conditions, and remains valid until its closure by the Client or Rabat Region Mobility.
                         </p>
 
                         <h3 id="article-4" className="text-xl font-bold py-4">Article 4: Account Opening and Activation</h3>
@@ -83,7 +83,7 @@ export default function TermsOfUse() {
                             <li>It is reserved for natural persons with a smartphone and internet connection.</li>
                             <li>Registration requires only providing the phone number.</li>
                             <li>Name and surname are optional and can be added by the user in their profile after registration to personalize their experience.</li>
-                            <li>TransitLoop may suspend an Account in case of fraud, false declaration, or upon request from authorities.</li>
+                            <li>Rabat Region Mobility may suspend an Account in case of fraud, false declaration, or upon request from authorities.</li>
                         </ul>
 
                         <h3 id="article-5" className="text-xl font-bold py-4">Article 5: Account Operation and Services</h3>
@@ -110,7 +110,7 @@ export default function TermsOfUse() {
                         <p className="py-2">The Account may be closed:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li><strong>By the Client</strong>: at any time, without fees. Personal data will be deleted in accordance with applicable regulations.</li>
-                            <li><strong>By TransitLoop</strong>: in case of death, fraud, false declaration, request from an authority, 12 months of inactivity, or violation of these Terms and Conditions.</li>
+                            <li><strong>By Rabat Region Mobility</strong>: in case of death, fraud, false declaration, request from an authority, 12 months of inactivity, or violation of these Terms and Conditions.</li>
                         </ul>
 
                         <h3 id="article-8" className="text-xl font-bold py-4">Article 8: Fare Information</h3>
@@ -212,14 +212,14 @@ export default function TermsOfUse() {
                             <li>Not divert the Application for fraudulent or unauthorized commercial purposes.</li>
                         </ul>
 
-                        <h3 id="article-11" className="text-xl font-bold py-4">Article 11: TransitLoop Responsibilities</h3>
-                        <p className="py-2">TransitLoop undertakes to:</p>
+                        <h3 id="article-11" className="text-xl font-bold py-4">Article 11: Rabat Region Mobility Responsibilities</h3>
+                        <p className="py-2">Rabat Region Mobility undertakes to:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>Provide route planning information within technical constraints,</li>
                             <li>Ensure regulatory compliance of its information services,</li>
                             <li>Inform the Client in case of technical interruption of planning services.</li>
                         </ul>
-                        <p className="py-2">TransitLoop is not responsible for:</p>
+                        <p className="py-2">Rabat Region Mobility is not responsible for:</p>
                         <ul className="list-disc ml-4 p-4">
                             <li>Accuracy of information provided by transport operators,</li>
                             <li>Malfunctions related to the Client's smartphone or mobile network,</li>
