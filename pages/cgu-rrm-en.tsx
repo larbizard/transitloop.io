@@ -25,12 +25,12 @@ export default function TermsOfUse() {
                             TERMS AND CONDITIONS OF USE
                         </h1>
                         <h2 id="sous-titre" className="text-xl font-bold py-4 text-left">
-                            for the MaaS Rabat Region Mobility Application
+                            for the Blassty Application
                         </h2>
 
                         <h3 id="definitions" className="text-xl font-bold py-4">Definitions</h3>
                         <p className="py-2">
-                            <strong>"MaaS Rabat Region Mobility Application" and/or "Application"</strong>: the mobile application allowing the Client to access route planning and calculation services for transport modes operated and/or managed by Rabat Region Mobility (RRM), namely: Rabat-Salé Tramway, Rabat Buses, Motorcycles, and RRM-managed Parking.
+                            <strong>"Blassty Application" and/or "Application"</strong>: the mobile application allowing the Client to access route planning and calculation services for transport modes operated and/or managed by Rabat Region Mobility (RRM), namely: Rabat-Salé Tramway, Rabat Buses, Motorcycles, and RRM-managed Parking.
                         </p>
                         <p className="py-2">
                             <strong>"Rabat Region Mobility" and/or "RRM"</strong>: a Moroccan joint-stock company, with its registered office at 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco, registered in the Rabat Commercial Register under number 75799, TransitLoop partner for providing the aforementioned mobility services.
@@ -127,14 +127,14 @@ export default function TermsOfUse() {
 
                         <h4 id="article-9-1" className="text-lg font-semibold py-2">9.1. Data Controller</h4>
                         <p className="py-2">
-                            <strong>TransitLoop</strong><br />
-                            Registered office: 310, rue Omar Riffi, 20250 Casablanca, Morocco<br />
-                            Trade register: Casablanca n° 671237<br />
-                            Contact: contact@transitloop.io<br />
-                            <br />
-                            <strong>Rabat Region Mobility (RRM)</strong> - Partner<br />
+                            <strong>Rabat Region Mobility (RRM)</strong><br />
                             Registered office: 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco<br />
-                            Trade register: Rabat n° 75799
+                            Trade register: Rabat n° 75799<br />
+                            Contact: contact@blassty.ma<br />
+                            <br />
+                            <strong>TransitLoop</strong> - Subcontractor<br />
+                            Registered office: 310, rue Omar Riffi, 20250 Casablanca, Morocco<br />
+                            Trade register: Casablanca n° 671237
                         </p>
 
                         <h4 id="article-9-2" className="text-lg font-semibold py-2">9.2. Processing Purposes</h4>
@@ -156,13 +156,13 @@ export default function TermsOfUse() {
 
                         <h4 id="article-9-4" className="text-lg font-semibold py-2">9.4. Legal Basis for Processing</h4>
                         <p className="py-2">
-                            Processing is based on TransitLoop's legitimate interest in providing route planning services and on user consent for optional data.
+                            Processing is based on Rabat Region Mobility (RRM)'s legitimate interest in providing route planning services and on user consent for optional data.
                         </p>
 
                         <h4 id="article-9-5" className="text-lg font-semibold py-2">9.5. Data Recipients</h4>
                         <ul className="list-disc ml-4 p-4">
-                            <li>TransitLoop (data controller)</li>
-                            <li>Rabat Region Mobility (RRM) - partner for route planning services</li>
+                            <li>Rabat Region Mobility (RRM) - (data controller)</li>
+                            <li>TransitLoop (subcontractor)</li>
                             <li>Competent authorities (upon legal request)</li>
                         </ul>
                         <p className="py-2">
@@ -189,13 +189,13 @@ export default function TermsOfUse() {
                         <h4 id="article-9-8" className="text-lg font-semibold py-2">9.8. Exercising Rights</h4>
                         <p className="py-2">
                             To exercise your rights, contact us:<br />
-                            <strong>Email:</strong> contact@transitloop.io<br />
-                            <strong>Mail:</strong> TransitLoop – 310, rue Omar Riffi, 20250 Casablanca, Morocco
+                            <strong>Email:</strong> contact@blassty.ma<br />
+                            <strong>Mail:</strong> Rabat Region Mobility – 1 Rue Ghafsa, Place Al Joulane, Rabat, Morocco
                         </p>
 
                         <h4 id="article-9-9" className="text-lg font-semibold py-2">9.9. CNDP Declaration</h4>
                         <p className="py-2">
-                            This processing has been subject to a declaration / authorization request to the CNDP under number ………… The collected personal data may be transmitted to TransitLoop and to Rabat Region Mobility in accordance with the transfer request filed with the CNDP.
+                            This processing has been subject to a declaration / authorization request to the CNDP under number ………… The collected personal data may be transmitted to Rabat Region Mobility and to TransitLoop in accordance with the transfer request filed with the CNDP.
                         </p>
 
                         <h4 id="article-9-10" className="text-lg font-semibold py-2">9.10. Complaints</h4>
