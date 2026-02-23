@@ -1,191 +1,221 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import * as Icon from 'react-feather'
-import { useRouter } from 'next/router'
-import Head from 'next/head'
-import i18n from 'i18next';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import * as Icon from "react-feather";
+import { useRouter } from "next/router";
+import Head from "next/head";
+import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 
+export default function PageHeader() {
+  const { t } = useTranslation();
+  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
+  const router = useRouter();
 
-export default function PageHeader () {
+  const navLinks = [
+    { href: "/", label: t("Home") },
+    { href: "/contact", label: t("Contact_us") },
+  ];
 
-    const { t } = useTranslation();
+  const linkClass = (href: string) =>
+    `relative rounded-lg px-4 py-2.5 text-sm font-medium transition ${router.asPath === href
+      ? "text-white bg-white/10"
+      : "text-white/85 hover:bg-white/5 hover:text-white"
+    }`;
 
-    const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
-    const router = useRouter()
+  const LeftToRightMenu = () => (
+    <>
+      {navLinks.map(({ href, label }) => (
+        <Link key={href} href={href} className={linkClass(href)}>
+          {label}
+        </Link>
+      ))}
+    </>
+  );
 
-    React.useEffect(() => {
+  const RightToLeftMenu = () => (
+    <>
+      {[...navLinks].reverse().map(({ href, label }) => (
+        <Link key={href} href={href} className={linkClass(href)}>
+          {label}
+        </Link>
+      ))}
+    </>
+  );
 
-    }, [])
+  const languages = [
+    { code: "en", label: "EN" },
+    { code: "fr", label: "FR" },
+    { code: "ar", label: "AR" },
+  ];
 
-    const LeftToRightMenu = () => {
-        return(
-            <>
-                <Link href="/">
-                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/" && "underline"}`}>
-                        {t("Home")}
-                    </h2>
-                </Link>
-                {/* <Link href="/carriere">
-                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/carriere" && "underline"}`}>
-                        {t("Career")}
-                    </h2>
-                </Link>
-                <Link href="/about">
-                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/about" && "underline"}`}>
-                        {t("About_us")}
-                    </h2>
-                </Link> */}
-                <Link href="/contact">
-                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/contact" && "underline"}`}>
-                        {t("Contact_us")}
-                    </h2>
-                </Link>
-            </>
-        )
-    }
+  return (
+    <>
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-black/95 shadow-[0_1px_0_0_rgba(255,255,255,0.03)] backdrop-blur-md">
+        <div className="relative mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+          <nav className="hidden lg:flex lg:min-w-[140px] lg:items-center lg:gap-1">
+            {i18n.language === "fr" || i18n.language === "en" ? (
+              <LeftToRightMenu />
+            ) : (
+              <RightToLeftMenu />
+            )}
+          </nav>
 
-    const RightToLeftMenu = () => {
-        return(
-            <>
-                <Link href="/contact">
-                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/contact" && "underline"}`}>
-                        {t("Contact_us")}
-                    </h2>
-                </Link>
-                {/* <Link href="/about">
-                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/about" && "underline"}`}>
-                        {t("About_us")}
-                    </h2>
-                </Link>
-                <Link href="/carriere">
-                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/carriere" && "underline"}`}>
-                        {t("Career")}
-                    </h2>
-                </Link> */}
+          <Link
+            href="/"
+            className="group absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center gap-2 rounded-lg py-1 transition hover:opacity-90"
+          >
+            <span className="text-base font-semibold tracking-tight text-white sm:text-lg">
+              TransitLoop
+            </span>
+          </Link>
 
-                <Link href="/">
-                    <h2 className={`text-xl cursor-pointer text-white hover:underline ${router.asPath == "/" && "underline"}`}>
-                        {t("Home")}
-                    </h2>
-                </Link>
-            </>
-        )
-    }
-
-    return(
-        <>        
-            <Head>
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-            </Head>
-            <div className={`flex flex-row items-center justify-between py-4 sm:py-8 sm:p-8 px-4`}>
-                <Link href="/">
-                    <div className="group menu-identity flex flex-row items-center cursor-pointer">
-                        <div className="hidden lg:block mr-4">
-                            <div className="block group-hover:hidden">
-                                <Image src="/assets/images/transitloop_logo_no_text.svg" width={30} height={60} alt="Logo no text" />
-                            </div>
-                            <div className="hidden group-hover:block">
-                                <Image src="/assets/images/transitloop_logo_no_text_hover.svg" width={30} height={60} alt="Logo no text hover" />
-                            </div>
-                        </div>
-                        <div className="lg:hidden mr-4">
-                            <div className="block group-hover:hidden">
-                                <Image src="/assets/images/transitloop_logo_no_text.svg" width={25} height={60} alt="Logo no text" />
-                            </div>
-                            <div className="hidden group-hover:block">
-                                <Image src="/assets/images/transitloop_logo_no_text_hover.svg" width={25} height={60} alt="Logo no text hover" />
-                            </div>
-                        </div>
-                        <h1 className="text-2xl text-white">
-                            TransitLoop
-                        </h1>
-                    </div>
-                </Link>
-                <div className="hidden lg:flex menu flex-col space-y-4">
-        
-                    <div className="hidden lg:flex menu flex-row justify-between space-x-8">
-                        <Link href="https://facebook.com/transitloop"><Icon.Facebook className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
-                        {/* <Link href="#"><Icon.Instagram className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
-                        <Link href="#"><Icon.Twitter className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link> */}
-                        <Link href="https://www.linkedin.com/company/transitloop"><Icon.Linkedin className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
-                    {i18n.language === 'fr' || i18n.language === 'en' ? 
-                        <LeftToRightMenu />
-                    
-                    :
-                    
-                        <RightToLeftMenu />
-                    }
-                    </div>
-                    <div className="hidden text-white lg:flex flex-row self-end cursor-pointer">
-                        <h1 
-                            className={`pr-2 text-xl font-bold ${i18n.language === 'en' ? 'underline' : ''}`}
-                            onClick={() => i18n.changeLanguage('en')}
-                        >
-                            English
-                        </h1>
-                        <h1 
-                            className={`px-2 text-xl font-bold ${i18n.language === 'fr' ? 'underline' : ''}`}
-                            onClick={() => i18n.changeLanguage('fr')}
-                        >
-                            Français
-                        </h1>
-                        <h1 
-                            className={`pl-2 text-xl font-bold ${i18n.language === 'ar' ? 'underline' : ''}`}
-                            onClick={() => i18n.changeLanguage('ar')}
-                        >
-                            العربية
-                        </h1>
-                    </div>
-                </div>
-                {!mobileMenuOpen ?
-                <Icon.Menu className="lg:hidden text-white cursor-pointer" size={25} onClick={() => setMobileMenuOpen(true)}/> :
-                <Icon.X className="lg:hidden text-white cursor-pointer" size={25} onClick={() => setMobileMenuOpen(false)}/>}
+          <div className="flex min-w-0 flex-1 items-center justify-end gap-2 sm:gap-3 lg:min-w-[140px]">
+            <div className="hidden items-center rounded-lg bg-white/5 p-1 lg:flex">
+              {languages.map(({ code, label }) => (
+                <button
+                  key={code}
+                  type="button"
+                  onClick={() => i18n.changeLanguage(code)}
+                  className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${i18n.language === code
+                      ? "bg-white/15 text-white shadow-sm"
+                      : "text-white/70 hover:bg-white/10 hover:text-white"
+                    }`}
+                >
+                  {label}
+                </button>
+              ))}
             </div>
-            <div className={`absolute ${mobileMenuOpen ? "flex" : "hidden" } bg-black w-full h-full p-6 flex-col space-y-8 z-30`}>
-                <div className={`flex flex-col py-2 space-y-4 ${i18n.dir() === "rtl" && "text-right items-end"}`}>
-                    <LeftToRightMenu />
-                    <div className="pt-8 py-2 space-y-4">
-                        <Icon.Globe className="lg:hidden text-white cursor-pointer" size={25}/>
-                    </div>
-                    <div className="py-2 space-y-4">
-                        <h1 
-                            className={`cursor-pointer text-white text-xl ${i18n.language === 'en' ? 'underline' : ''}`}
-                            onClick={() => {i18n.changeLanguage('en'); setMobileMenuOpen(false);}}
-                        >
-                            English
-                        </h1>
-                        <h1 
-                            className={`cursor-pointer text-white text-xl ${i18n.language === 'fr' ? 'underline' : ''}`}
-                            onClick={() => {i18n.changeLanguage('fr'); setMobileMenuOpen(false);}}
-                        >
-                            Français
-                        </h1>
-                        <h1 
-                            className={`cursor-pointer text-white text-xl ${i18n.language === 'ar' ? 'underline' : ''}`}
-                            onClick={() => {i18n.changeLanguage('ar'); setMobileMenuOpen(false);}}
-                        >
-                            العربية
-                        </h1>
-                    </div>
-                    <div className="pt-8 py-2 space-y-4">
-                        <Icon.Umbrella className="lg:hidden text-white cursor-pointer" size={25}/>
-                    </div>
-                    <div className="flex flex-col space-y-4">
-                        <Link href="/cgu" className="text-xl text-white">
-                            {t("Terms_of_service")}
-                        </Link>
-                    </div>
-                    <div className="flex flex-row pt-8 space-x-4 py-4">
-                    <Link href="https://facebook.com/transitloop"><Icon.Facebook className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
-                        {/* <Link href="#"><Icon.Instagram className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
-                        <Link href="#"><Icon.Twitter className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link> */}
-                        <Link href="https://www.linkedin.com/company/transitloop"><Icon.Linkedin className="hidden lg:block text-white cursor-pointer hover:underline" size={25} /></Link>
-                    </div>
-                </div>
+            <div className="hidden lg:flex lg:items-center lg:gap-1">
+              <a
+                href="https://facebook.com/transitloop"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg p-2.5 text-white/75 transition hover:bg-white/10 hover:text-white"
+                aria-label="Facebook"
+              >
+                <Icon.Facebook size={20} strokeWidth={2} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/transitloop"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg p-2.5 text-white/75 transition hover:bg-white/10 hover:text-white"
+                aria-label="LinkedIn"
+              >
+                <Icon.Linkedin size={20} strokeWidth={2} />
+              </a>
             </div>
-        </>
-    )
-    
+            <button
+              type="button"
+              className="rounded-lg p-2.5 text-white lg:hidden transition hover:bg-white/10 active:bg-white/15"
+              onClick={() => setMobileMenuOpen(true)}
+              aria-label="Open menu"
+            >
+              <Icon.Menu size={24} strokeWidth={2} />
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Mobile menu overlay */}
+      <div
+        className={`fixed inset-0 z-50 lg:hidden ${mobileMenuOpen ? "visible" : "invisible"
+          }`}
+        aria-hidden={!mobileMenuOpen}
+      >
+        <div
+          className="absolute inset-0 bg-black/80 backdrop-blur-sm transition-opacity"
+          onClick={() => setMobileMenuOpen(false)}
+          aria-hidden="true"
+        />
+        <div
+          className={`absolute right-0 top-0 flex h-full w-full max-w-sm flex-col border-l border-white/10 bg-black shadow-2xl transition-transform duration-200 ease-out ${i18n.dir() === "rtl" ? "left-0 right-auto border-l-0 border-r border-white/10" : ""
+            } ${mobileMenuOpen ? "translate-x-0" : "translate-x-full"}`}
+        >
+          <div className="flex items-center justify-between border-b border-white/10 px-6 py-4">
+            <span className="text-lg font-semibold text-white">Menu</span>
+            <button
+              type="button"
+              className="rounded-lg p-2 text-white hover:bg-white/10"
+              onClick={() => setMobileMenuOpen(false)}
+              aria-label="Close menu"
+            >
+              <Icon.X size={24} />
+            </button>
+          </div>
+          <nav
+            className={`flex flex-1 flex-col gap-0.5 p-5 ${i18n.dir() === "rtl" ? "items-end text-right" : ""}`}
+          >
+            {navLinks.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                onClick={() => setMobileMenuOpen(false)}
+                className={`rounded-xl px-4 py-3.5 text-base font-medium transition ${router.asPath === href
+                    ? "bg-white/15 text-white"
+                    : "text-white/90 hover:bg-white/10 hover:text-white"
+                  }`}
+              >
+                {label}
+              </Link>
+            ))}
+            <Link
+              href="/cgu"
+              onClick={() => setMobileMenuOpen(false)}
+              className="rounded-xl px-4 py-3.5 text-base font-medium text-white/75 hover:bg-white/10 hover:text-white"
+            >
+              {t("Terms_of_service")}
+            </Link>
+          </nav>
+          <div className="border-t border-white/10 p-6">
+            <p className="mb-3 text-xs font-medium uppercase tracking-wider text-white/50">
+              Langue
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {languages.map(({ code, label }) => (
+                <button
+                  key={code}
+                  type="button"
+                  onClick={() => {
+                    i18n.changeLanguage(code);
+                    setMobileMenuOpen(false);
+                  }}
+                  className={`rounded-lg px-3 py-2 text-sm font-medium transition ${i18n.language === code
+                      ? "bg-white/15 text-white"
+                      : "text-white/70 hover:bg-white/10 hover:text-white"
+                    }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+            <div className="mt-4 flex gap-3">
+              <a
+                href="https://facebook.com/transitloop"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg p-2 text-white/80 hover:bg-white/10 hover:text-white"
+                aria-label="Facebook"
+              >
+                <Icon.Facebook size={22} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/transitloop"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg p-2 text-white/80 hover:bg-white/10 hover:text-white"
+                aria-label="LinkedIn"
+              >
+                <Icon.Linkedin size={22} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
