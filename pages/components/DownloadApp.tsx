@@ -117,7 +117,7 @@ const DownloadApp = () => {
             <TextComponent className="flex flex-col md:w-1/5 py-10 px-4 justify-center md:justify-start" />
             <Image
               className="px-2 self-center md:self-center"
-              src="/assets/images/mockups/1_ver.png"
+              src="/assets/images/mdinamapper_screenshog.png"
               width={400}
               height={700}
               alt={t("StoreBadges.appStoreAlt")}
@@ -128,7 +128,7 @@ const DownloadApp = () => {
             <TextComponent className="flex flex-col md:w-1/5 justify-center py-10 px-4 md:hidden" />
             <Image
               className="px-2 self-center md:self-center"
-              src="/assets/images/mockups/1_ver.png"
+              src="/assets/images/mdinamapper_screenshog.png"
               width={400}
               height={700}
               alt={t("StoreBadges.appStoreAlt")}
