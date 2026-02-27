@@ -40,5 +40,44 @@
         "Submit": "Submit",
         "Submitted": "Submitted",
         "InProgress": "In progress ..."
+    },
+    "Features": {
+        "Data": {
+            "title": "Structured Data Production",
+            "features": [
+                {"name": "Creation and structuring of theoretical data", "description": "Structuring of static data for transport networks (schedules, routes, stops, fares). Building and validating GTFS-standard files compliant with international norms."},
+                {"name": "Real-time feed generation", "description": "Generation of real-time feeds for vehicle positions, arrival times, and service alerts and incidents in GTFS-RT format. Real-time data distribution. Feed optimization for reliability and fast updates."},
+                {"name": "Third-party platform integrations", "description": "Data integration with Google Transit for greater visibility to users."},
+                {"name": "Mobility API development and management", "description": "Creation of robust APIs for data exchange between operators, third-party applications and end users. API customization to meet the specific needs of operators or authorities (route management, vehicle tracking, multimodal journey calculation). API monitoring and maintenance for ongoing availability and performance."}
+            ]
+        },
+        "App": {
+            "title": "Grey Label Application",
+            "features": [
+                {"name": "No app for the authority to publish", "description": "The authority does not need to deploy its own app on the stores. We integrate its data (schedules, routes, real-time) on our servers and serve it to users through our public app, already available on the stores."},
+                {"name": "Route planning, multimodal mobility, real-time alerts", "description": "The app enables multimodal route planning, real-time alerts and public transport information."},
+                {"name": "Integration with different transport modes", "description": "The app can be integrated with different transport modes (bus, train, bike, walking, etc.) and third-party services (weather, traffic, etc.)."},
+                {"name": "Maintenance and technical support", "description": "We provide maintenance and technical support for the application."},
+                {"name": "Customization and deployment", "description": "We deploy the white-label application with your authority's branding."}
+            ]
+        },
+        "AppWhite": {
+            "title": "White Label Application",
+            "features": [
+                {"name": "Route planning, multimodal mobility, real-time alerts", "description": "The app enables multimodal route planning, real-time alerts and public transport information."},
+                {"name": "Integration with different transport modes", "description": "The app can be integrated with different transport modes (bus, train, bike, walking, etc.) and third-party services (weather, traffic, etc.)."},
+                {"name": "Maintenance and technical support", "description": "We provide maintenance and technical support for the application."},
+                {"name": "Customization and deployment", "description": "We deploy the white-label application with your authority's branding."}
+            ]
+        },
+        "Amo": {
+            "title": "Owner's Project Management Assistance",
+            "features": [
+                {"name": "Facilitate decision-making", "description": "Helping our partners clarify their needs and set realistic, measurable objectives."},
+                {"name": "Ensure deliverable quality", "description": "Supervising and controlling all project stages to ensure results meet expectations."},
+                {"name": "Optimize resources", "description": "Reducing costs and lead times through efficient management and specialized expertise."},
+                {"name": "Ensure compliance", "description": "Verifying that projects comply with regulatory norms and international standards (especially for mobility and data)."}
+            ]
+        }
     }
 }

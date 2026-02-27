@@ -11,14 +11,16 @@ const DownloadApp = () => {
     return (
       <div {...props}>
         <h1
-          className={`text-2xl xl:text-4xl text-black font-black  ${i18n.language === "ar" ? "text-right" : ""
-            }`}
+          className={`text-2xl xl:text-4xl text-black font-black ${i18n.language === "ar" ? "text-right" : ""}`}
         >
           {t("Welcome_message")}
         </h1>
+        <p className={`mt-2 text-black/80 ${i18n.language === "ar" ? "text-right" : ""}`}>
+          Application de mobilité pour plusieurs villes du Maroc. Planification
+          d&apos;itinéraires et informations sur les transports en commun.
+        </p>
         <div
-          className={`flex flex-col xl:flex-row ${i18n.language === "ar" ? "justify-end" : "justify-start"
-            } py-4`}
+          className={`flex flex-col xl:flex-row ${i18n.language === "ar" ? "justify-end" : "justify-start"} py-4`}
         >
           <Link
             className="pr-2"
@@ -55,7 +57,7 @@ const DownloadApp = () => {
       <div className="flex flex-col justify-center bg-white pt-10">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 py-20 lg:text-center">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-black sm:text-5xl lg:text-balance">
-            Notre application en marque blanche est déployée dans plusieurs villes du Maroc sous le nom de <a href="https://mdinamapper.com" className="underline">MdinaMapper</a>
+            Notre application en marque <span className="text-gray-500 underline">grise</span> est déployée dans plusieurs villes du Maroc sous le nom de <a href="https://mdinamapper.com" className="underline">MdinaMapper</a>
           </p>
         </div>
       </div>
@@ -81,7 +83,7 @@ const DownloadApp = () => {
               height={700}
               alt="Android badge"
             />
-            <TextComponent className="flex flex-col md:w-1/5 justify-centerpx-4 hidden md:block py-10 mx-4" />
+            <TextComponent className="flex flex-col md:w-1/5 justify-center px-4 hidden md:block py-10 mx-4" />
           </>
         )}
       </div>
