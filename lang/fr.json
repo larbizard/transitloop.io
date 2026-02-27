@@ -48,7 +48,22 @@
     },
     "BlasstyApp": {
         "title": "Blassty",
-        "description": "Application de mobilité pour la région de Rabat. Planification d'itinéraires tramway, bus, vélo-taxi et parkings."
+        "description": "Application de mobilité pour la région de Rabat. Planification d'itinéraires tramway, bus, vélo-taxi et parkings.",
+        "whiteLabelParagraph": "Notre application en marque blanche est déployée dans la région de Rabat sous le nom de",
+        "whiteLabelBefore": "Notre application en marque ",
+        "whiteLabelWord": "blanche",
+        "whiteLabelAfter": " est déployée dans la région de Rabat sous le nom de"
+    },
+    "StoreBadges": {
+        "playStoreAlt": "Disponible sur Google Play",
+        "appStoreAlt": "Télécharger sur l'App Store"
+    },
+    "DownloadApp": {
+        "Description": "Application de mobilité pour plusieurs villes du Maroc. Planification d'itinéraires et informations sur les transports en commun.",
+        "GreyLabelParagraph": "Notre application en marque grise est déployée dans plusieurs villes du Maroc sous le nom de",
+        "greyLabelBefore": "Notre application en marque ",
+        "greyLabelWord": "grise",
+        "greyLabelAfter": " est déployée dans plusieurs villes du Maroc sous le nom de"
     },
     "Nos_realisations": "Nos réalisations",
     "Nos_references": "Nos références",

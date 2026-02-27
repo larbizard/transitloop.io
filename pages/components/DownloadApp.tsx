@@ -1,13 +1,59 @@
 import Image from "next/image";
 import i18n from "i18next";
-import Link from "next/link";
 
 import { useTranslation } from "react-i18next";
 
+// Store badge paths by language (same approach as LandingRedirect)
+const storeBadges = {
+  en: {
+    playStore: "/assets/images/badges/Android/google-play-badge-en.png",
+    appStore: "/assets/images/badges/Apple/App_Store_Badge_en.svg",
+  },
+  fr: {
+    playStore: "/assets/images/badges/Android/google-play-badge-fr.png",
+    appStore: "/assets/images/badges/Apple/App_Store_Badge_fr.svg",
+  },
+  ar: {
+    playStore: "/assets/images/badges/Android/google-play-badge-ar.png",
+    appStore: "/assets/images/badges/Apple/App_Store_Badge_ar.svg",
+  },
+} as const;
+
+const storeBadgeStyles = {
+  buttonGroup: {
+    display: "flex" as const,
+    flexDirection: "column" as const,
+    gap: "15px",
+    marginBottom: "30px",
+    width: "100%",
+    maxWidth: "200px",
+    alignItems: "center" as const,
+  },
+  storeBadgeLink: {
+    display: "block",
+    textDecoration: "none",
+    transition: "transform 0.2s ease, opacity 0.2s ease",
+    width: "200px",
+    minWidth: "200px",
+    maxWidth: "200px",
+  },
+  storeBadge: {
+    height: "100px",
+    width: "200px",
+    minWidth: "200px",
+    maxWidth: "200px",
+    display: "block",
+    borderRadius: "4px",
+    objectFit: "contain" as const,
+  },
+};
+
 const DownloadApp = () => {
   const { t } = useTranslation();
+  const lang = (i18n.language || "en") as keyof typeof storeBadges;
+  const badges = storeBadges[lang] || storeBadges.en;
 
-  const TextComponent = (props: any) => {
+  const TextComponent = (props: React.HTMLAttributes<HTMLDivElement>) => {
     return (
       <div {...props}>
         <h1
@@ -16,37 +62,37 @@ const DownloadApp = () => {
           {t("Welcome_message")}
         </h1>
         <p className={`mt-2 text-black/80 ${i18n.language === "ar" ? "text-right" : ""}`}>
-          Application de mobilité pour plusieurs villes du Maroc. Planification
-          d&apos;itinéraires et informations sur les transports en commun.
+          {t("DownloadApp.Description")}
         </p>
         <div
-          className={`flex flex-col xl:flex-row ${i18n.language === "ar" ? "justify-end" : "justify-start"} py-4`}
+          style={{
+            ...(() => {
+              const { alignItems: _a, ...rest } = storeBadgeStyles.buttonGroup;
+              return { ...rest, marginBottom: 0 };
+            })(),
+          }}
+          className="self-center xl:self-auto items-center xl:items-start"
         >
-          <Link
-            className="pr-2"
+          <a
             href="https://play.google.com/store/apps/details?id=com.larbizard.MdinaMapper"
+            style={storeBadgeStyles.storeBadgeLink}
           >
-            <Image
-              src={`/assets/images/badges/Android/google-play-badge-${i18n.language}.png`}
-              height={30}
-              width={200}
-              alt="Android 
-    badge"
+            <img
+              src={badges.playStore}
+              alt={t("StoreBadges.playStoreAlt") as string}
+              style={storeBadgeStyles.storeBadge}
             />
-          </Link>
-          <Link
-            className="pt-2 xl:pt-0 xl:pl-2"
+          </a>
+          <a
             href="https://apps.apple.com/us/app/mdinamapper/id1662853420"
+            style={storeBadgeStyles.storeBadgeLink}
           >
-            <Image
-              src={`/assets/images/badges/Apple/App_Store_Badge_${i18n.language}.svg`}
-              height={30}
-              width={
-                i18n.language === "ar" || i18n.language === "en" ? 180 : 190
-              }
-              alt="Android badge"
+            <img
+              src={badges.appStore}
+              alt={t("StoreBadges.appStoreAlt") as string}
+              style={storeBadgeStyles.storeBadge}
             />
-          </Link>
+          </a>
         </div>
       </div>
     );
@@ -57,7 +103,11 @@ const DownloadApp = () => {
       <div className="flex flex-col justify-center bg-white pt-10">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 py-20 lg:text-center">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-black sm:text-5xl lg:text-balance">
-            Notre application en marque <span className="text-gray-500 underline">grise</span> est déployée dans plusieurs villes du Maroc sous le nom de <a href="https://mdinamapper.com" className="underline">MdinaMapper</a>
+            {t("DownloadApp.greyLabelBefore")}
+            <span className="text-gray-500">{t("DownloadApp.greyLabelWord")}</span>
+            {t("DownloadApp.greyLabelAfter")}{" "}
+            <a href="https://mdinamapper.com" target="_blank"
+              rel="noopener noreferrer" className="underline">MdinaMapper</a>.
           </p>
         </div>
       </div>
@@ -67,10 +117,10 @@ const DownloadApp = () => {
             <TextComponent className="flex flex-col md:w-1/5 py-10 px-4 justify-center md:justify-start" />
             <Image
               className="px-2 self-center md:self-center"
-              src={`/assets/images/mockups/1_ver.png`}
+              src="/assets/images/mockups/1_ver.png"
               width={400}
               height={700}
-              alt="Android badge"
+              alt={t("StoreBadges.appStoreAlt")}
             />
           </>
         ) : (
@@ -78,10 +128,10 @@ const DownloadApp = () => {
             <TextComponent className="flex flex-col md:w-1/5 justify-center py-10 px-4 md:hidden" />
             <Image
               className="px-2 self-center md:self-center"
-              src={`/assets/images/mockups/1_ver.png`}
+              src="/assets/images/mockups/1_ver.png"
               width={400}
               height={700}
-              alt="Android badge"
+              alt={t("StoreBadges.appStoreAlt")}
             />
             <TextComponent className="flex flex-col md:w-1/5 justify-center px-4 hidden md:block py-10 mx-4" />
           </>

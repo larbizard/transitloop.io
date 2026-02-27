@@ -48,7 +48,22 @@
     },
     "BlasstyApp": {
         "title": "Blassty",
-        "description": "تطبيق تنقل لمنطقة الرباط. تخطيط مسارات الترام والحافلات والدراجة النارية ومواقف السيارات."
+        "description": "تطبيق تنقل لمنطقة الرباط. تخطيط مسارات الترام والحافلات والدراجة النارية ومواقف السيارات.",
+        "whiteLabelParagraph": "تطبيقنا بالعلامة البيضاء منشور في منطقة الرباط تحت اسم",
+        "whiteLabelBefore": "تطبيقنا بالعلامة ",
+        "whiteLabelWord": "البيضاء",
+        "whiteLabelAfter": " منشور في منطقة الرباط تحت اسم"
+    },
+    "StoreBadges": {
+        "playStoreAlt": "احصل عليه على Google Play",
+        "appStoreAlt": "حمّل من App Store"
+    },
+    "DownloadApp": {
+        "Description": "تطبيق تنقل لعدة مدن في المغرب. تخطيط المسارات ومعلومات النقل العام.",
+        "GreyLabelParagraph": "تطبيقنا بالعلامة الرمادية منشور في عدة مدن بالمغرب تحت اسم",
+        "greyLabelBefore": "تطبيقنا بالعلامة ",
+        "greyLabelWord": "الرمادية",
+        "greyLabelAfter": " منشور في عدة مدن بالمغرب تحت اسم"
     },
     "Nos_realisations": "إنجازاتنا",
     "Nos_references": "مراجعنا",

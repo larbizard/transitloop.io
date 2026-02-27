@@ -1,8 +1,10 @@
 import Link from "next/link";
+import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 
 const EntryPoint = () => {
   const { t } = useTranslation();
+  const isRtl = i18n.language === "ar";
 
   return (
     <div className="mb-10">
@@ -12,11 +14,11 @@ const EntryPoint = () => {
           alt="img"
           className="h-screen w-full object-cover opacity-70"
         />
-        <div className="absolute px-10 lg:px-60 inset-0 flex flex-col justify-center px-4 lg:px-24 items-start">
-          <h2 className="text-6xl font-bold text-white text-left max-w-3xl">
+        <div className={`absolute px-10 lg:px-60 inset-0 flex flex-col justify-center px-4 lg:px-24 ${isRtl ? "items-end" : "items-start"}`}>
+          <h2 className={`text-6xl font-bold text-white max-w-3xl ${isRtl ? "text-right" : "text-left"}`}>
             {t("EntryPoint.hero_title")}
           </h2>
-          <div className="mt-10 flex items-center justify-start gap-x-6">
+          <div className={`mt-10 flex items-center gap-x-6 ${isRtl ? "justify-end" : "justify-start"}`}>
             <Link
               href="/contact"
               className="rounded-md w-full xl:w-auto bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white text-center"
