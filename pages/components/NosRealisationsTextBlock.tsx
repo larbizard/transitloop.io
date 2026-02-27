@@ -1,17 +1,20 @@
 import Image from "next/image";
 import i18n from "i18next";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
-const NosRealisationsTextBlock = ({ className = "" }: { className?: string }) => (
+const NosRealisationsTextBlock = ({ className = "" }: { className?: string }) => {
+  const { t } = useTranslation();
+
+  return (
   <div className={className}>
     <h1
       className={`text-2xl xl:text-4xl text-black font-black ${i18n.language === "ar" ? "text-right" : ""}`}
     >
-      Blassty
+      {t("BlasstyApp.title")}
     </h1>
     <p className={`mt-2 text-black/80 ${i18n.language === "ar" ? "text-right" : ""}`}>
-      Application de mobilité pour la région de Rabat. Planification
-      d&apos;itinéraires tramway, bus, vélo-taxi et parkings.
+      {t("BlasstyApp.description")}
     </p>
     <div
       className={`flex flex-col xl:flex-row ${i18n.language === "ar" ? "justify-end" : "justify-start"} py-4`}
@@ -42,6 +45,7 @@ const NosRealisationsTextBlock = ({ className = "" }: { className?: string }) =>
       </Link>
     </div>
   </div>
-);
+  );
+};
 
 export default NosRealisationsTextBlock;

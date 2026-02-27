@@ -1,13 +1,17 @@
+import { useTranslation } from "react-i18next";
+
 const NosReferences = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative isolate overflow-hidden bg-black px-6 py-16 sm:py-20 lg:px-8">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-center text-2xl font-semibold tracking-tight text-white sm:text-3xl">
-          Nos références
+          {t("Nos_references")}
         </h2>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-12">
           <a
-            href="https://www.rabatregionmobilite.ma"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center transition opacity-90 hover:opacity-100"

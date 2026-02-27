@@ -39,7 +39,44 @@
         "Message": "Message",
         "Submit": "Submit",
         "Submitted": "Submitted",
-        "InProgress": "In progress ..."
+        "InProgress": "In progress ...",
+        "SuccessMessage": "Thank you, your message has been sent."
+    },
+    "Discover_our_solutions": "Discover our solutions",
+    "EntryPoint": {
+        "hero_title": "Let's build tomorrow's mobility together"
+    },
+    "BlasstyApp": {
+        "title": "Blassty",
+        "description": "Mobility app for the Rabat region. Tramway, bus, bike-taxi and parking route planning."
+    },
+    "Nos_realisations": "Our achievements",
+    "Nos_references": "Our references",
+    "Founder": {
+        "quote": "At TransitLoop, we are revolutionizing mobility by empowering cities to deliver seamless and intelligent transit solutions.",
+        "team_title": "Our Team",
+        "role_founder": "Founder of TransitLoop",
+        "role_fullstack": "Full Stack Developer",
+        "role_designer": "UX/UI Designer"
+    },
+    "Career": {
+        "hero_title": "Join our team of enthusiasts",
+        "hero_subtitle": "Join us to create the best trip planning experience.",
+        "thank_you": "Thank you, your message has been sent.",
+        "we_are_looking_for": "We are looking for:",
+        "send_cv": "Send your CV and cover letter.",
+        "why_join": "Why do you want to join TransitLoop?",
+        "firstname": "First name",
+        "lastname": "Last name",
+        "submit": "Submit",
+        "submitted": "Submitted",
+        "position_ux": "UX Designer",
+        "position_web": "Web Developer",
+        "position_mobile": "Mobile Developer",
+        "position_java": "Java Developer",
+        "position_python": "Python Developer",
+        "position_devops": "DevOps",
+        "position_data": "Data Analyst"
     },
     "Features": {
         "Data": {

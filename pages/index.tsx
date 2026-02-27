@@ -23,7 +23,7 @@ export default function IndexPage() {
       <EntryPoint />
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-10 lg:text-center">
         <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-balance">
-          Découvrez nos solutions
+          {t("Discover_our_solutions")}
         </p>
       </div>
       <Features />

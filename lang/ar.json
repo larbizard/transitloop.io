@@ -39,7 +39,44 @@
         "Message": "رسالة",
         "Submit": "يسلم",
         "Submitted": "مُقَدَّم",
-        "InProgress": "... الجاري"
+        "InProgress": "... الجاري",
+        "SuccessMessage": "شكراً، تم إرسال رسالتك."
+    },
+    "Discover_our_solutions": "اكتشف حلولنا",
+    "EntryPoint": {
+        "hero_title": "لنبني معاً تنقل الغد"
+    },
+    "BlasstyApp": {
+        "title": "Blassty",
+        "description": "تطبيق تنقل لمنطقة الرباط. تخطيط مسارات الترام والحافلات والدراجة النارية ومواقف السيارات."
+    },
+    "Nos_realisations": "إنجازاتنا",
+    "Nos_references": "مراجعنا",
+    "Founder": {
+        "quote": "في TransitLoop، نحدث ثورة في التنقل بتمكين المدن من تقديم حلول نقل سلسة وذكية.",
+        "team_title": "فريقنا",
+        "role_founder": "مؤسس TransitLoop",
+        "role_fullstack": "مطور Full Stack",
+        "role_designer": "مصمم UX/UI"
+    },
+    "Career": {
+        "hero_title": "انضم إلى فريقنا من المتحمسين",
+        "hero_subtitle": "انضم إلينا لإنشاء أفضل تجربة لتخطيط الرحلات.",
+        "thank_you": "شكراً، تم إرسال رسالتك.",
+        "we_are_looking_for": "نبحث عن:",
+        "send_cv": "أرسل سيرتك الذاتية ورسالة التحفيز.",
+        "why_join": "لماذا تريد الانضمام إلى TransitLoop؟",
+        "firstname": "الاسم الشخصي",
+        "lastname": "اسم العائلة",
+        "submit": "إرسال",
+        "submitted": "مُرسَل",
+        "position_ux": "مصمم UX",
+        "position_web": "مطور ويب",
+        "position_mobile": "مطور تطبيقات الجوال",
+        "position_java": "مطور Java",
+        "position_python": "مطور Python",
+        "position_devops": "DevOps",
+        "position_data": "محلل بيانات"
     },
     "Features": {
         "Data": {

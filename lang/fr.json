@@ -39,7 +39,44 @@
         "Message": "Message",
         "Submit": "Soumettre",
         "Submitted": "Soumis",
-        "InProgress": "En cours ..."
+        "InProgress": "En cours ...",
+        "SuccessMessage": "Merci, votre message a bien été transmis."
+    },
+    "Discover_our_solutions": "Découvrez nos solutions",
+    "EntryPoint": {
+        "hero_title": "Construisons ensemble la mobilité de demain"
+    },
+    "BlasstyApp": {
+        "title": "Blassty",
+        "description": "Application de mobilité pour la région de Rabat. Planification d'itinéraires tramway, bus, vélo-taxi et parkings."
+    },
+    "Nos_realisations": "Nos réalisations",
+    "Nos_references": "Nos références",
+    "Founder": {
+        "quote": "Chez TransitLoop, nous révolutionnons la mobilité en permettant aux villes de proposer des solutions de transport fluides et intelligentes.",
+        "team_title": "Notre équipe",
+        "role_founder": "Fondateur de TransitLoop",
+        "role_fullstack": "Développeur Full Stack",
+        "role_designer": "Designer UX/UI"
+    },
+    "Career": {
+        "hero_title": "Rejoignez notre équipe de passionnés",
+        "hero_subtitle": "Rejoignez-nous afin de créer la meilleure expérience de planification de trajet.",
+        "thank_you": "Merci, votre message a bien été transmis.",
+        "we_are_looking_for": "Nous recherchons un(e) :",
+        "send_cv": "Envoyez votre Curriculum Vitae et votre lettre de motivation.",
+        "why_join": "Pourquoi voulez-vous rejoindre TransitLoop ?",
+        "firstname": "Prénom",
+        "lastname": "Nom",
+        "submit": "Soumettre",
+        "submitted": "Soumis",
+        "position_ux": "UX Designer(euse)",
+        "position_web": "Développeur(euse) Web",
+        "position_mobile": "Développeur(euse) Mobile",
+        "position_java": "Développeur(euse) Java",
+        "position_python": "Développeur(euse) Python",
+        "position_devops": "Devops",
+        "position_data": "Data analysts"
     },
     "Features": {
         "Data": {

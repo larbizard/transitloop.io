@@ -1,6 +1,9 @@
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const ExitPoint = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="mb-10">
       <div className="relative">
@@ -15,7 +18,7 @@ const ExitPoint = () => {
               href="/contact"
               className="rounded-md w-full lg:w-auto bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white text-center"
             >
-              Contactez-nous
+              {t("Contact_us")}
             </Link>
           </div>
         </div>

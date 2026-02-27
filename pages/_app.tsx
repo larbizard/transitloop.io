@@ -13,8 +13,8 @@ import fr from "../lang/fr.json"
 i18n
   .use(initReactI18next)
   .init({
-    lng: "fr",
-    fallbackLng: "fr",
+    lng: "en",
+    fallbackLng: "en",
     resources: {
       en:{
         translation: en

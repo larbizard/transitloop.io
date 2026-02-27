@@ -1,5 +1,6 @@
 import Image from "next/image";
 import i18n from "i18next";
+import { useTranslation } from "react-i18next";
 
 import NosRealisationsTextBlock from "./NosRealisationsTextBlock";
 
@@ -33,17 +34,21 @@ const appIconStyleMdinaMapper: React.CSSProperties = {
   borderRadius: "35px",
   boxShadow:
     "0 20px 40px rgba(0, 0, 0, 0.25), 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.05)",
+  backgroundColor: "#FACC14",
+  padding: "16px",
   objectFit: "contain",
   display: "block",
   transition: "transform 0.3s ease, box-shadow 0.3s ease",
 };
 const NosRealisations = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className="flex flex-col justify-center bg-white pt-10">
         <div className="mx-auto max-w-7xl px-6 pb-8 lg:px-8">
           <h2 className="text-center text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
-            Nos réalisations
+            {t("Nos_realisations")}
           </h2>
           <div className="flex flex-row justify-center gap-10">
             <a

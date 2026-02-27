@@ -61,7 +61,7 @@ export default function Contact() {
       data: inputs,
     })
       .then(() => {
-        handleServerResponse(true, "Merci, votre message a bien été transmis.");
+        handleServerResponse(true, t("Contact.SuccessMessage"));
       })
       .catch((error: { response: { data: { error: string } } }) => {
         handleServerResponse(false, error.response.data.error);
