@@ -97,38 +97,85 @@
         "Data": {
             "title": "Production de données structurées",
             "features": [
-                {"name": "Création et structuration de données théoriques", "description": "Structuration des données statiques des réseaux de transport (horaires, itinéraires, arrêts, tarifs). Construction et validation des fichiers au standard GTFS conformes aux normes internationales."},
-                {"name": "Génération de flux temps réel", "description": "Génération de flux temps réel sur les positions des véhicules, les horaires de passage, et les alertes et incidents de service au format GTFS-RT. Diffusion des données en temps réel. Optimisation des flux pour garantir une fiabilité et une actualisation rapide."},
-                {"name": "Intégrations à des plateformes tierces", "description": "Intégration des données avec Google Transit pour une visibilité accrue auprès des usagers."},
-                {"name": "Développement et gestion d'API de mobilité", "description": "Création d'API robustes permettant l'échange de données entre les opérateurs, les applications tierces et les utilisateurs finaux. Personnalisation d'API pour répondre aux besoins spécifiques des opérateurs ou des collectivités (gestion des itinéraires, tracking des véhicules, calcul de trajets multimodaux). Surveillance et maintenance des API pour garantir une disponibilité et une performance continue."}
+                {
+                    "name": "Création et structuration de données théoriques",
+                    "description": "Structuration des données statiques des réseaux de transport (horaires, itinéraires, arrêts, tarifs). Construction et validation des fichiers au standard GTFS conformes aux normes internationales."
+                },
+                {
+                    "name": "Génération de flux temps réel",
+                    "description": "Génération de flux temps réel sur les positions des véhicules, les horaires de passage, et les alertes et incidents de service au format GTFS-RT. Diffusion des données en temps réel. Optimisation des flux pour garantir une fiabilité et une actualisation rapide."
+                },
+                {
+                    "name": "Intégrations à des plateformes tierces",
+                    "description": "Intégration des données avec Google Transit pour une visibilité accrue auprès des usagers."
+                },
+                {
+                    "name": "Développement et gestion d'API de mobilité",
+                    "description": "Création d'API robustes permettant l'échange de données entre les opérateurs, les applications tierces et les utilisateurs finaux. Personnalisation d'API pour répondre aux besoins spécifiques des opérateurs ou des collectivités (gestion des itinéraires, tracking des véhicules, calcul de trajets multimodaux). Surveillance et maintenance des API pour garantir une disponibilité et une performance continue."
+                }
             ]
         },
         "App": {
             "title": "Application en Marque grise",
             "features": [
-                {"name": "Pas d'application à publier par la collectivité", "description": "La collectivité n'a pas besoin de déployer sa propre application sur les stores. Nous intégrons ses données (horaires, itinéraires, temps réel) sur nos serveurs et les diffusons aux usagers via notre application publique, déjà disponible sur les stores."},
-                {"name": "Planification d'itinéraires, mobilité multimodale, alertes en temps réel", "description": "L'application permet de planifier des itinéraires multimodaux, de recevoir des alertes en temps réel et de consulter des informations sur les transports en commun."},
-                {"name": "Intégrations possibles à différents modes de transport", "description": "L'application peut être intégrée à différents modes de transport (bus, train, vélo, marche, etc.) et à des services tiers (météo, trafic, etc.)."},
-                {"name": "Maintenance et support technique", "description": "Nous assurons la maintenance et le support technique de l'application."},
-                {"name": "Personnalisation et déploiement", "description": "Nous déployons l'application en marque blanche aux couleurs de votre collectivité."}
+                {
+                    "name": "Pas d'application à publier par la collectivité",
+                    "description": "La collectivité n'a pas besoin de déployer sa propre application sur les stores. Nous intégrons ses données (horaires, itinéraires, temps réel) sur nos serveurs et les diffusons aux usagers via notre application publique, déjà disponible sur les stores."
+                },
+                {
+                    "name": "Planification d'itinéraires, mobilité multimodale, alertes en temps réel",
+                    "description": "L'application permet de planifier des itinéraires multimodaux, de recevoir des alertes en temps réel et de consulter des informations sur les transports en commun."
+                },
+                {
+                    "name": "Intégrations possibles à différents modes de transport",
+                    "description": "L'application peut être intégrée à différents modes de transport (bus, train, vélo, marche, etc.) et à des services tiers (météo, trafic, etc.)."
+                },
+                {
+                    "name": "Maintenance et support technique",
+                    "description": "Nous assurons la maintenance et le support technique de l'application."
+                },
             ]
         },
         "AppWhite": {
             "title": "Application en Marque blanche",
             "features": [
-                {"name": "Planification d'itinéraires, mobilité multimodale, alertes en temps réel", "description": "L'application permet de planifier des itinéraires multimodaux, de recevoir des alertes en temps réel et de consulter des informations sur les transports en commun."},
-                {"name": "Intégrations possibles à différents modes de transport", "description": "L'application peut être intégrée à différents modes de transport (bus, train, vélo, marche, etc.) et à des services tiers (météo, trafic, etc.)."},
-                {"name": "Maintenance et support technique", "description": "Nous assurons la maintenance et le support technique de l'application."},
-                {"name": "Personnalisation et déploiement", "description": "Nous déployons l'application en marque blanche aux couleurs de votre collectivité."}
+                {
+                    "name": "Planification d'itinéraires, mobilité multimodale, alertes en temps réel",
+                    "description": "L'application permet de planifier des itinéraires multimodaux, de recevoir des alertes en temps réel et de consulter des informations sur les transports en commun."
+                },
+                {
+                    "name": "Intégrations possibles à différents modes de transport",
+                    "description": "L'application peut être intégrée à différents modes de transport (bus, train, vélo, marche, etc.) et à des services tiers (météo, trafic, etc.)."
+                },
+                {
+                    "name": "Maintenance et support technique",
+                    "description": "Nous assurons la maintenance et le support technique de l'application."
+                },
+                {
+                    "name": "Personnalisation et déploiement",
+                    "description": "Nous déployons l'application en marque blanche aux couleurs de votre collectivité."
+                }
             ]
         },
         "Amo": {
             "title": "Accompagnement en Assistance à Maîtrise d'Ouvrage",
             "features": [
-                {"name": "Faciliter la prise de décision", "description": "Aider nos partenaires à clarifier leurs besoins et à définir des objectifs réalistes et mesurables."},
-                {"name": "Garantir la qualité des livrables", "description": "Superviser et contrôler toutes les étapes du projet pour garantir un résultat conforme aux attentes."},
-                {"name": "Optimiser les ressources", "description": "Réduire les coûts et les délais grâce à une gestion efficace et une expertise spécialisée."},
-                {"name": "Assurer la conformité", "description": "Vérifier que les projets respectent les normes réglementaires et les standards internationaux (notamment en matière de mobilité et de données)."}
+                {
+                    "name": "Faciliter la prise de décision",
+                    "description": "Aider nos partenaires à clarifier leurs besoins et à définir des objectifs réalistes et mesurables."
+                },
+                {
+                    "name": "Garantir la qualité des livrables",
+                    "description": "Superviser et contrôler toutes les étapes du projet pour garantir un résultat conforme aux attentes."
+                },
+                {
+                    "name": "Optimiser les ressources",
+                    "description": "Réduire les coûts et les délais grâce à une gestion efficace et une expertise spécialisée."
+                },
+                {
+                    "name": "Assurer la conformité",
+                    "description": "Vérifier que les projets respectent les normes réglementaires et les standards internationaux (notamment en matière de mobilité et de données)."
+                }
             ]
         }
     }
