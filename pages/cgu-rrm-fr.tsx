@@ -196,7 +196,7 @@ export default function TermsOfUse() {
 
             <h4 id="article-9-9" className="text-lg font-semibold py-2">9.9. Déclaration CNDP</h4>
             <p className="py-2">
-              Ce traitement a fait l'objet d'une déclaration / demande d'autorisation auprès de la CNDP sous le numéro D-W-1956/2025 Les données personnelles collectées peuvent être transmises à Rabat Région Mobilité et à TransitLoop conformément à la demande de transfert déposée auprès de la CNDP.
+              Ce traitement a fait l'objet d'une déclaration / demande d'autorisation auprès de la CNDP sous le numéro D-W-1956/2025. Dans ce cadre, la protection des données à caractère personnel est assurée conformément à la loi 09-08 et aux exigences de la CNDP. Les données personnelles collectées peuvent être transmises à Rabat Région Mobilité et à TransitLoop conformément à la demande de transfert déposée auprès de la CNDP.
             </p>
 
             <h4 id="article-9-10" className="text-lg font-semibold py-2">9.10. Réclamations</h4>

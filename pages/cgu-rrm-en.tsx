@@ -195,7 +195,7 @@ export default function TermsOfUse() {
 
                         <h4 id="article-9-9" className="text-lg font-semibold py-2">9.9. CNDP Declaration</h4>
                         <p className="py-2">
-                            This processing has been subject to a declaration / authorization request to the CNDP under number D-W-1956/2025. The collected personal data may be transmitted to Rabat Region Mobility and to TransitLoop in accordance with the transfer request filed with the CNDP.
+                            This processing has been subject to a declaration / authorization request to the CNDP under number D-W-1956/2025. In this context, the protection of personal data is ensured in accordance with Law 09-08 and CNDP requirements. The collected personal data may be transmitted to Rabat Region Mobility and to TransitLoop in accordance with the transfer request filed with the CNDP.
                         </p>
 
                         <h4 id="article-9-10" className="text-lg font-semibold py-2">9.10. Complaints</h4>
