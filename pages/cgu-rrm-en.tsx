@@ -238,6 +238,14 @@ export default function TermsOfUse() {
                             <li>These Terms and Conditions are governed by Moroccan law.</li>
                             <li>In case of dispute, the Parties will attempt an amicable resolution. Failing that, the competent courts are those of Rabat.</li>
                         </ul>
+
+                        <h3 id="article-14" className="text-xl font-bold py-4">Article 14: Ticket Cancellation and Refund</h3>
+                        <p className="py-2">Tourist bus tickets purchased in the Application can be cancelled under the following conditions:</p>
+                        <ul className="list-disc ml-4 p-4">
+                            <li><strong>Booked ticket (specific date)</strong>: the cancellation request must be sent no later than 3 days before the booking date.</li>
+                            <li><strong>Non-bookable ticket (no booking date)</strong>: the cancellation request must be sent within 15 days of the purchase date.</li>
+                        </ul>
+                        <p className="py-2">To request a cancellation, the Client must send an email to <strong>contact@blassty.ma</strong> stating the <strong>ticket number</strong>. After these deadlines, the ticket can no longer be cancelled or refunded.</p>
                     </div>
                 </div>
             </div>

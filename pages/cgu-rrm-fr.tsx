@@ -239,6 +239,14 @@ export default function TermsOfUse() {
               <li>Les CGU sont régies par la loi marocaine.</li>
               <li>En cas de litige, les Parties tenteront une résolution amiable. À défaut, les tribunaux compétents sont ceux de Rabat.</li>
             </ul>
+
+            <h3 id="article-14" className="text-xl font-bold py-4">Article 14 : Annulation et Remboursement des Billets</h3>
+            <p className="py-2">Les billets de bus touristique achetés dans l'Application peuvent être annulés dans les conditions suivantes :</p>
+            <ul className="list-disc ml-4 p-4">
+              <li><strong>Billet à date réservée</strong> : la demande d'annulation doit être envoyée au plus tard 3 jours avant la date de la réservation.</li>
+              <li><strong>Billet sans date de réservation</strong> : la demande d'annulation doit être envoyée dans un délai de 15 jours à compter de la date d'achat.</li>
+            </ul>
+            <p className="py-2">Pour demander une annulation, le Client doit envoyer un e-mail à <strong>contact@blassty.ma</strong> en indiquant le <strong>numéro du billet</strong>. Passé ces délais, le billet ne peut plus être annulé ni remboursé.</p>
           </div>
         </div>
       </div>
