@@ -95,9 +95,6 @@ export default function TermsOfUse() {
               <li>Consultation des informations pratiques sur les modes de transport (horaires, tarifs, accessibilité).</li>
               <li>Gestion des préférences de transport et sauvegarde des itinéraires favoris.</li>
             </ul>
-            <p className="py-2">
-              L'Application fournit uniquement des informations de planification et ne permet pas l'achat, la réservation ou la validation de titres de transport.
-            </p>
 
             <h3 id="article-6" className="text-xl font-bold py-4">Article 6 : Sécurité et Confidentialité</h3>
             <ul className="list-disc ml-4 p-4">
@@ -116,9 +113,7 @@ export default function TermsOfUse() {
 
             <h3 id="article-8" className="text-xl font-bold py-4">Article 8 : Informations Tarifaires</h3>
             <ul className="list-disc ml-4 p-4">
-              <li>L'Application affiche les tarifs des différents modes de transport à titre informatif uniquement.</li>
-              <li>Les tarifs affichés peuvent varier et ne sont pas contractuels.</li>
-              <li>Le Client doit se renseigner auprès des opérateurs de transport pour les tarifs officiels et l'achat de titres.</li>
+              <li>Les tarifs affichés pour les autres modes de transport (tramway, bus, vélo-taxi, parkings) peuvent varier et ne sont pas contractuels, à l'exception des tarifs des billets du bus touristique.</li>
             </ul>
 
             <h3 id="article-9" className="text-xl font-bold py-4">Article 9 : Protection des Données Personnelles</h3>
@@ -239,6 +234,14 @@ export default function TermsOfUse() {
               <li>Les CGU sont régies par la loi marocaine.</li>
               <li>En cas de litige, les Parties tenteront une résolution amiable. À défaut, les tribunaux compétents sont ceux de Rabat.</li>
             </ul>
+
+            <h3 id="article-14" className="text-xl font-bold py-4">Article 14 : Annulation et Remboursement des Billets</h3>
+            <p className="py-2">Les billets de bus touristique achetés dans l'Application peuvent être annulés dans les conditions suivantes :</p>
+            <ul className="list-disc ml-4 p-4">
+              <li><strong>Billet à date réservée</strong> : la demande d'annulation doit être envoyée au plus tard 3 jours avant la date de la réservation.</li>
+              <li><strong>Billet sans date de réservation</strong> : la demande d'annulation doit être envoyée dans un délai de 15 jours à compter de la date d'achat.</li>
+            </ul>
+            <p className="py-2">Pour demander l'annulation et le remboursement d'un billet, le Client doit envoyer un e-mail à <strong>refund@blassty.ma</strong> en indiquant le <strong>numéro du billet</strong>. Le remboursement est traité à la suite de cette demande. Passé ces délais, le billet ne peut plus être annulé ni remboursé.</p>
           </div>
         </div>
       </div>
