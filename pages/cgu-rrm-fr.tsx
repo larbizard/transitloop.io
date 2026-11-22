@@ -114,7 +114,6 @@ export default function TermsOfUse() {
             <h3 id="article-8" className="text-xl font-bold py-4">Article 8 : Informations Tarifaires</h3>
             <ul className="list-disc ml-4 p-4">
               <li>Les tarifs affichés pour les autres modes de transport (tramway, bus, vélo-taxi, parkings) peuvent varier et ne sont pas contractuels, à l'exception des tarifs des billets du bus touristique.</li>
-              <li>Les billets du bus touristique sont vendus au prix affiché dans l'Application au moment de l'achat.</li>
             </ul>
 
             <h3 id="article-9" className="text-xl font-bold py-4">Article 9 : Protection des Données Personnelles</h3>

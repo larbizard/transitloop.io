@@ -113,7 +113,6 @@ export default function TermsOfUse() {
                         <h3 id="article-8" className="text-xl font-bold py-4">Article 8: Fare Information</h3>
                         <ul className="list-disc ml-4 p-4">
                             <li>Fares displayed for the other transport modes (tram, bus, bike-taxi, parking) may vary and are not contractual, except for Tourist Bus ticket fares.</li>
-                            <li>Tourist Bus tickets are sold at the price displayed in the Application at the time of purchase.</li>
                         </ul>
 
                         <h3 id="article-9" className="text-xl font-bold py-4">Article 9: Personal Data Protection</h3>
