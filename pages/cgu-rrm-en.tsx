@@ -94,9 +94,6 @@ export default function TermsOfUse() {
                             <li>Consultation of practical information on transport modes (schedules, fares, accessibility).</li>
                             <li>Management of transport preferences and saving of favorite routes.</li>
                         </ul>
-                        <p className="py-2">
-                            The Application provides only planning information and does not allow the purchase, reservation, or validation of transport tickets.
-                        </p>
 
                         <h3 id="article-6" className="text-xl font-bold py-4">Article 6: Security and Confidentiality</h3>
                         <ul className="list-disc ml-4 p-4">
@@ -115,9 +112,7 @@ export default function TermsOfUse() {
 
                         <h3 id="article-8" className="text-xl font-bold py-4">Article 8: Fare Information</h3>
                         <ul className="list-disc ml-4 p-4">
-                            <li>The Application displays fares for different transport modes for informational purposes only.</li>
                             <li>Displayed fares may vary and are not contractual.</li>
-                            <li>The Client must inquire with transport operators for official fares and ticket purchases.</li>
                         </ul>
 
                         <h3 id="article-9" className="text-xl font-bold py-4">Article 9: Personal Data Protection</h3>
@@ -245,7 +240,7 @@ export default function TermsOfUse() {
                             <li><strong>Booked ticket (specific date)</strong>: the cancellation request must be sent no later than 3 days before the booking date.</li>
                             <li><strong>Non-bookable ticket (no booking date)</strong>: the cancellation request must be sent within 15 days of the purchase date.</li>
                         </ul>
-                        <p className="py-2">To request a cancellation, the Client must send an email to <strong>contact@blassty.ma</strong> stating the <strong>ticket number</strong>. After these deadlines, the ticket can no longer be cancelled or refunded.</p>
+                        <p className="py-2">To request the cancellation and refund of a ticket, the Client must send an email to <strong>refund@blassty.ma</strong> stating the <strong>ticket number</strong>. The refund is processed following this request. After these deadlines, the ticket can no longer be cancelled or refunded.</p>
                     </div>
                 </div>
             </div>
